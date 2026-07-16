@@ -233,8 +233,8 @@ const MCQSession = () => {
                         className={optionClass}
                         onClick={() => handleOptionSelect(option)}
                       >
-                        <div className="mcq-option-letter">{letters[idx]}</div>
-                        <div style={{ flex: 1 }}>{option}</div>
+                        <div className="mcq-option-letter" style={{ flexShrink: 0, width: '28px', display: 'flex', justifyContent: 'center' }}>{letters[idx]}</div>
+                        <div style={{ flex: 1, textAlign: 'left', display: 'flex', alignItems: 'center' }}>{option}</div>
                         
                         {showExplanation && isCorrect && <FiCheck className="text-accent" size={20} />}
                         {showExplanation && isSelected && !isCorrect && <FiX className="text-danger" size={20} />}
