@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "correctAnswer": "O(log n)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Algorithms",
+    "explanation": "Binary Search works by repeatedly dividing the search space in half. At each step it eliminates half of the remaining elements. This gives a time complexity of O(log n) where n is the number of elements."
+  },
+  {
+    "id": 2,
+    "question": "Which data structure uses LIFO (Last In First Out) principle?",
+    "options": ["Queue", "Linked List", "Stack", "Tree"],
+    "correctAnswer": "Stack",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Data Structures",
+    "explanation": "A Stack follows LIFO — the last element added (pushed) is the first one removed (popped). Common uses: function call stack, undo operations, expression evaluation, DFS traversal. Queue follows FIFO (First In First Out)."
+  },
+  {
+    "id": 3,
+    "question": "What is a primary key in a relational database?",
+    "options": [
+      "A key used to encrypt data",
+      "A column or set of columns that uniquely identifies each row in a table",
+      "The first column of every table",
+      "A foreign key reference"
+    ],
+    "correctAnswer": "A column or set of columns that uniquely identifies each row in a table",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "DBMS",
+    "explanation": "A primary key uniquely identifies each record in a table. Properties: unique (no two rows have same value), not null (cannot be empty), and there can be only one primary key per table. Example: StudentID in a Students table."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between a process and a thread?",
+    "options": [
+      "Process is smaller, thread is larger",
+      "A process is an independent program with its own memory space; a thread is a lightweight unit of execution within a process sharing its memory",
+      "They are the same thing",
+      "Threads are used in C++, processes in Java"
+    ],
+    "correctAnswer": "A process is an independent program with its own memory space; a thread is a lightweight unit of execution within a process sharing its memory",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Operating Systems",
+    "explanation": "A Process is an independent executing program with its own memory space (code, data, stack, heap). A Thread is a unit of execution within a process, sharing the process's memory but having its own stack and registers. Multiple threads in one process = multithreading. Context switching is faster between threads than processes."
+  },
+  {
+    "id": 5,
+    "question": "What does SQL JOIN do?",
+    "options": [
+      "Merges two databases into one",
+      "Combines rows from two or more tables based on a related column",
+      "Deletes duplicate rows from a table",
+      "Creates a new table from existing data"
+    ],
+    "correctAnswer": "Combines rows from two or more tables based on a related column",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "SQL",
+    "explanation": "SQL JOIN combines rows from two or more tables based on a related column (usually foreign key). Types: INNER JOIN (only matching rows), LEFT JOIN (all rows from left + matching from right), RIGHT JOIN, FULL OUTER JOIN. Example: SELECT * FROM Orders INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID"
+  },
+  {
+    "id": 6,
+    "question": "What is polymorphism in OOP?",
+    "options": [
+      "The ability of an object to take multiple forms, with different implementations for the same interface",
+      "Creating multiple objects from one class",
+      "Hiding internal implementation details",
+      "Inheriting from multiple parent classes"
+    ],
+    "correctAnswer": "The ability of an object to take multiple forms, with different implementations for the same interface",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "OOPs",
+    "explanation": "Polymorphism means 'many forms'. An object can be treated as its parent type but behaves according to its actual type. Types: Compile-time (method overloading) and Runtime (method overriding). Example: A Shape class with draw() method — Circle and Rectangle both override draw() differently."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of a foreign key?",
+    "options": [
+      "To encrypt sensitive data in a table",
+      "To link two tables together by referencing the primary key of another table",
+      "To create an index for faster queries",
+      "To restrict access to certain rows"
+    ],
+    "correctAnswer": "To link two tables together by referencing the primary key of another table",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "DBMS",
+    "explanation": "A foreign key is a column in one table that refers to the primary key of another table, establishing a relationship between them. It enforces referential integrity — you can't insert a foreign key value that doesn't exist in the referenced table. Example: Orders.CustomerID is a FK referencing Customers.CustomerID."
+  },
+  {
+    "id": 8,
+    "question": "What is the worst case time complexity of QuickSort?",
+    "options": ["O(n log n)", "O(n)", "O(n²)", "O(log n)"],
+    "correctAnswer": "O(n²)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Algorithms",
+    "explanation": "QuickSort has average time complexity O(n log n) but worst case O(n²) which occurs when the pivot is always the smallest or largest element (e.g., already sorted array with first element as pivot). Using random pivot selection or median-of-three strategy avoids this. MergeSort guarantees O(n log n) in all cases."
+  },
+  {
+    "id": 9,
+    "question": "What is a deadlock in Operating Systems?",
+    "options": [
+      "A system crash due to memory overflow",
+      "A situation where two or more processes wait indefinitely for resources held by each other",
+      "A network connection failure",
+      "A type of sorting algorithm error"
+    ],
+    "correctAnswer": "A situation where two or more processes wait indefinitely for resources held by each other",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Operating Systems",
+    "explanation": "Deadlock occurs when processes form a circular wait for resources. Four necessary conditions (Coffman conditions): Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait. Prevention strategies: resource ordering, banker's algorithm (deadlock avoidance), detection and recovery. Classic example: Dining Philosophers problem."
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between TCP and UDP?",
+    "options": [
+      "TCP is faster, UDP is slower",
+      "TCP provides reliable, ordered, connection-based communication; UDP is connectionless, faster but unreliable",
+      "Both are the same protocol with different names",
+      "UDP encrypts data, TCP does not"
+    ],
+    "correctAnswer": "TCP provides reliable, ordered, connection-based communication; UDP is connectionless, faster but unreliable",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Computer Networks",
+    "explanation": "TCP (Transmission Control Protocol): connection-oriented, guarantees delivery, maintains order, flow control, used for HTTP, email, file transfer. UDP (User Datagram Protocol): connectionless, no guaranteed delivery, faster, used for video streaming, gaming, DNS, VoIP. Choose TCP for reliability, UDP for speed."
+  },
+  {
+    "id": 11,
+    "question": "What is normalization in databases?",
+    "options": [
+      "Making all values in a table the same format",
+      "The process of organizing data to reduce redundancy and improve data integrity using normal forms",
+      "Converting text to lowercase",
+      "Optimizing database query performance"
+    ],
+    "correctAnswer": "The process of organizing data to reduce redundancy and improve data integrity using normal forms",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "DBMS",
+    "explanation": "Normalization reduces data redundancy and improves data integrity through Normal Forms: 1NF (atomic values, no repeating groups), 2NF (no partial dependency), 3NF (no transitive dependency), BCNF (stronger 3NF). Higher normal forms reduce anomalies (insertion, update, deletion) but may impact query performance."
+  },
+  {
+    "id": 12,
+    "question": "What is a hash table?",
+    "options": [
+      "A table used in HTML for layout",
+      "A data structure that uses a hash function to map keys to indices for O(1) average-case lookups",
+      "A sorted array of key-value pairs",
+      "A type of binary tree for fast search"
+    ],
+    "correctAnswer": "A data structure that uses a hash function to map keys to indices for O(1) average-case lookups",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Data Structures",
+    "explanation": "A hash table uses a hash function to compute an index (hash) into an array where the value is stored. Average case: O(1) for insert, delete, and lookup. Worst case: O(n) due to collisions. Collision handling: chaining (linked lists) or open addressing (linear probing). Implemented as HashMap in Java, dict in Python."
+  },
+  {
+    "id": 13,
+    "question": "What does ACID stand for in database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integration, Data",
+      "Automated, Concurrent, Indexed, Dynamic",
+      "Asynchronous, Cached, Integrated, Distributed"
+    ],
+    "correctAnswer": "Atomicity, Consistency, Isolation, Durability",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "DBMS",
+    "explanation": "ACID properties ensure reliable database transactions: Atomicity (all or nothing — transaction either completes fully or rolls back), Consistency (database remains in valid state), Isolation (concurrent transactions don't interfere), Durability (committed transactions persist even after system failure). Essential for banking and financial applications."
+  },
+  {
+    "id": 14,
+    "question": "What is the difference between abstract class and interface in Java?",
+    "options": [
+      "They are the same thing with different syntax",
+      "Abstract class can have concrete methods and state; interface traditionally only has abstract methods (pre-Java 8)",
+      "Interface can have constructors, abstract class cannot",
+      "Abstract class supports multiple inheritance, interface does not"
+    ],
+    "correctAnswer": "Abstract class can have concrete methods and state; interface traditionally only has abstract methods (pre-Java 8)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Java",
+    "explanation": "Abstract class: can have concrete (implemented) methods, instance variables, constructors; supports single inheritance. Interface: traditionally only abstract methods (Java 8+ allows default/static methods); no instance variables; supports multiple inheritance (a class can implement multiple interfaces). Use abstract class for 'is-a' relationships with shared implementation; interface for 'can-do' capabilities."
+  },
+  {
+    "id": 15,
+    "question": "What is the Big-O notation for accessing an element in an array by index?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+    "correctAnswer": "O(1)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Technical",
+    "topic": "Data Structures",
+    "explanation": "Array index access is O(1) — constant time — because arrays store elements in contiguous memory locations. The memory address is calculated as: base_address + (index × element_size). This direct computation means access time is independent of array size. This is why arrays are preferred when random access is frequent."
+  }
+]

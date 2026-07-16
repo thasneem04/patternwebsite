@@ -1,0 +1,259 @@
+{
+  "id": "zoho",
+  "name": "Zoho Corporation",
+  "shortName": "Zoho",
+  "logo": "🔵",
+  "color": "#E8251F",
+  "gradient": "linear-gradient(135deg, #E8251F, #FF6B6B)",
+  "industry": "Software Products & SaaS",
+  "founded": "1996",
+  "headquarters": "Chennai, Tamil Nadu, India",
+  "ceo": "Sridhar Vembu",
+  "employees": "15,000+",
+  "globalPresence": "180+ countries",
+  "website": "https://www.zoho.com",
+  "careersPage": "https://careers.zoho.com",
+  "description": "Zoho Corporation is an Indian software products company known for its suite of web-based business tools and SaaS applications. Unlike most IT service companies, Zoho is a product company building its own software. Known for exceptional compensation and product-first culture.",
+  "businessDomains": [
+    "CRM & Sales",
+    "Marketing & Commerce",
+    "Service & Support",
+    "Finance & Accounting",
+    "Email & Collaboration",
+    "HR & People"
+  ],
+  "techStack": [
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "SQL",
+    "Android",
+    "iOS",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "One Operating System for your Business",
+    "highlights": [
+      "Product company — not IT services",
+      "80+ SaaS products",
+      "Self-funded — no external investment",
+      "Exceptional engineering culture",
+      "Bootstrapped to profitability"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and relevant branches"
+    ],
+    "cgpa": "6.5 CGPA / 60%",
+    "backlogs": "Maximum 1 active backlog (must be cleared within course duration)",
+    "gap": "Maximum 1 year gap (typically between 12th and graduation)",
+    "batch": "2024, 2025",
+    "note": "Candidates who participated in Zoho interview process in last 6 months are ineligible. Zoho focuses heavily on programming fundamentals — not just aptitude."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on Zoho Careers, FacePrep, GeeksforGeeks, and candidate experiences",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "package": "5.5 - 8 LPA",
+        "description": "Core software engineering role (Product development)"
+      },
+      {
+        "title": "Technical Support",
+        "package": "3.5 - 5 LPA",
+        "description": "Customer-facing technical support role"
+      }
+    ],
+    "hiringProgram": "Zoho Campus Drive / ZPAS (Zoho Placement Assistance System)",
+    "assessmentPlatform": "Zoho Platform (own platform)",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Written Round — Aptitude & Basic Programming",
+        "type": "Aptitude + Programming MCQ",
+        "duration": "90-120 minutes",
+        "description": "Quantitative aptitude, logical reasoning, and C/C++/Java/Python programming fundamentals + output-based questions.",
+        "sections": [
+          {
+            "name": "Quantitative Aptitude + Logical Reasoning",
+            "questions": 30,
+            "time": "45 min"
+          },
+          {
+            "name": "Programming MCQs (Output-based, C/Java)",
+            "questions": 20,
+            "time": "45 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Basic Programming Round",
+        "type": "Coding",
+        "duration": "60-90 minutes",
+        "description": "Write clean, efficient code for standard problems covering data structures, arrays, strings, and OOPs.",
+        "topics": [
+          "Arrays",
+          "Strings",
+          "OOPs Concepts",
+          "Basic Data Structures",
+          "Pattern printing",
+          "Number manipulation"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Advanced Programming / Machine Coding Round",
+        "type": "Coding",
+        "duration": "90-120 minutes",
+        "description": "Design and implement mini-applications or solve complex coding problems from scratch. Edge case handling required.",
+        "topics": [
+          "Mini application design",
+          "Complex DSA",
+          "Edge case handling",
+          "Code modularity",
+          "Object-oriented design"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "45-60 minutes",
+        "description": "In-depth discussion on projects, DSA, DBMS, OS, networking, and hands-on coding.",
+        "topics": [
+          "DSA deep dive",
+          "DBMS concepts",
+          "OS internals",
+          "Networking basics",
+          "Projects",
+          "Live coding on IDE"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "20-30 minutes",
+        "description": "Background, motivation, alignment with Zoho's product-first culture.",
+        "topics": [
+          "Why Zoho (product company)?",
+          "Strengths",
+          "Weaknesses",
+          "Career goals",
+          "Zoho culture alignment"
+        ]
+      },
+      {
+        "roundNumber": 6,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "8-12 weeks",
+    "difficultyLevel": "High",
+    "keyTopics": [
+      "Core Programming (C/C++/Java)",
+      "Data Structures & Algorithms",
+      "Aptitude",
+      "Mini Application Design",
+      "OOPs Design",
+      "DBMS & OS",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Zoho places HIGHEST importance on programming fundamentals — master at least one language thoroughly",
+      "Machine coding round requires you to design working applications — practice mini-projects",
+      "Aptitude is still important — don't skip it",
+      "Be comfortable writing code on paper or without IDE completion",
+      "Know OOPs design patterns if possible",
+      "Zoho is a product company — show passion for building things, not just coding tasks"
+    ],
+    "commonMistakes": [
+      "Weak programming fundamentals",
+      "Preparing only for service company patterns (Zoho is very different)",
+      "Not practicing machine coding / application design",
+      "Poor understanding of OOPs concepts"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "45-60 min",
+      "topics": [
+        "DSA",
+        "DBMS",
+        "OS",
+        "OOPs",
+        "Projects",
+        "Live coding",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Be strong in at least C/C++ or Java",
+        "Practice writing code without IDE help",
+        "Know your data structures inside-out",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "20-30 min",
+      "topics": [
+        "Why Zoho?",
+        "Product vs. Service mindset",
+        "Career goals",
+        "Strengths"
+      ],
+      "tips": [
+        "Show passion for product development",
+        "Zoho culture values self-reliance and depth of knowledge"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Zoho Official Careers",
+      "url": "https://careers.zoho.com",
+      "type": "official"
+    },
+    {
+      "name": "GeeksforGeeks - Zoho Interview",
+      "url": "https://geeksforgeeks.org/zoho-interview-questions",
+      "type": "educational"
+    },
+    {
+      "name": "FacePrep - Zoho Pattern",
+      "url": "https://faceprep.in/zoho",
+      "type": "educational"
+    }
+  ]
+}

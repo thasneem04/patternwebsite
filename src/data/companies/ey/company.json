@@ -1,0 +1,239 @@
+{
+  "id": "ey",
+  "name": "Ernst & Young (EY)",
+  "shortName": "EY",
+  "logo": "🟡",
+  "color": "#FFE600",
+  "gradient": "linear-gradient(135deg, #2E2E38, #FFE600)",
+  "industry": "Professional Services & Consulting",
+  "founded": "1989",
+  "headquarters": "London, UK (India: Kolkata)",
+  "ceo": "Janet Truncale (Global)",
+  "employees": "395,000+ (Global), 60,000+ (India GDS)",
+  "globalPresence": "150+ countries",
+  "website": "https://www.ey.com",
+  "careersPage": "https://www.ey.com/en_in/careers",
+  "description": "EY is a global leader in assurance, tax, transaction and advisory services. EY's Global Delivery Services (GDS) centers in India are among the largest employers in the professional services space, offering roles in technology, analytics, and consulting.",
+  "businessDomains": [
+    "Assurance",
+    "Tax & Law",
+    "Strategy & Transactions",
+    "Consulting",
+    "Technology Consulting",
+    "Data Analytics"
+  ],
+  "techStack": [
+    "Python",
+    "Java",
+    "Power BI",
+    "Tableau",
+    "SQL",
+    "SAP",
+    "Data Analytics",
+    "AI/ML",
+    "RPA (UiPath)",
+    "Cloud (AWS/Azure)",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Building a Better Working World",
+    "highlights": [
+      "Part of Big Four professional services",
+      "EY GDS India — major tech employer",
+      "Strong in Data Analytics & AI",
+      "EY-Parthenon strategy arm",
+      "Listed operations globally"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "MBA",
+      "M.Sc"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and relevant branches"
+    ],
+    "cgpa": "6.0 - 6.5 CGPA / 60-65%",
+    "backlogs": "No active backlogs at time of application",
+    "gap": "Maximum 1 year academic gap (must be well-justified)",
+    "batch": "2024, 2025",
+    "note": "EY GDS hires for Technology Consulting, Data Analytics, and Tax Technology tracks. EY values align with teamwork and integrity."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on EY Official Careers, GeeksforGeeks, FacePrep, and candidate experiences",
+    "sourceType": "mixed",
+    "sourceUrl": "https://www.ey.com/en_in/careers",
+    "roles": [
+      {
+        "title": "Analyst (GDS Technology)",
+        "package": "5 - 7 LPA",
+        "description": "Entry-level technology analyst role at EY GDS"
+      }
+    ],
+    "hiringProgram": "EY GDS Campus Drive",
+    "assessmentPlatform": "EY Platform / HireView / SHL",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment",
+        "type": "Aptitude + Technical + Behavioral (SJT)",
+        "duration": "60-90 minutes",
+        "description": "Assessment covering aptitude, technical MCQs, and Situational Judgment Test (SJT) evaluating decision-making aligned with EY values.",
+        "sections": [
+          {
+            "name": "Aptitude (Quant + Logical + Verbal)",
+            "questions": 30,
+            "time": "40 min"
+          },
+          {
+            "name": "Technical MCQs (DBMS, OS, OOPs, Networking)",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Situational Judgment Test (SJT)",
+            "questions": 15,
+            "time": "25 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Group Discussion / Case Study",
+        "type": "Communication",
+        "duration": "15-20 minutes",
+        "description": "Case exercise or GD on business/technology scenarios to assess analytical and communication skills.",
+        "topics": [
+          "Technology case studies",
+          "Business scenarios",
+          "Problem analysis",
+          "Communication"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Domain and programming knowledge assessment, often conducted via HireView or in-person.",
+        "topics": [
+          "Core CS subjects (DBMS, OS, OOPs)",
+          "Data Analytics basics",
+          "Programming fundamentals",
+          "Projects"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "HR/Partner Interview",
+        "type": "Interview",
+        "duration": "20-30 minutes",
+        "description": "Behavioral and values-based assessment aligned with EY's core values.",
+        "topics": [
+          "Why EY?",
+          "EY values alignment",
+          "Teamwork",
+          "Integrity scenarios",
+          "Career goals"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Aptitude",
+      "SJT (Situational Judgment)",
+      "Core CS fundamentals",
+      "Data Analytics basics",
+      "Communication & Teamwork",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "SJT is unique to Big Four — research EY's values and answer accordingly",
+      "EY emphasizes integrity, teamwork, and client-centricity",
+      "Know basic Python and SQL for Data Analytics roles",
+      "Practice GD on technology and business case topics"
+    ],
+    "commonMistakes": [
+      "Not preparing for SJT section",
+      "Not researching EY's service lines",
+      "Poor GD participation"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "DBMS",
+        "OS",
+        "OOPs",
+        "Python/SQL basics",
+        "Projects",
+        "Data Analytics",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Mention any analytics or data work in projects",
+        "Know SQL joins, GROUP BY, aggregation well",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "20-30 min",
+      "topics": [
+        "Why EY?",
+        "STAR behavioral questions",
+        "EY values",
+        "Ethical scenarios",
+        "Career aspirations"
+      ],
+      "tips": [
+        "Research EY's 'Building a Better Working World' mission",
+        "Prepare STAR stories for teamwork and leadership"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "EY Official Careers India",
+      "url": "https://www.ey.com/en_in/careers",
+      "type": "official"
+    },
+    {
+      "name": "GeeksforGeeks - EY Interview",
+      "url": "https://geeksforgeeks.org/ey-interview-questions",
+      "type": "educational"
+    },
+    {
+      "name": "FacePrep - EY Pattern",
+      "url": "https://faceprep.in/ey",
+      "type": "educational"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "infosys",
+  "name": "Infosys Limited",
+  "shortName": "Infosys",
+  "logo": "🟦",
+  "color": "#007CC3",
+  "gradient": "linear-gradient(135deg, #007CC3, #00A2E0)",
+  "industry": "IT Services & Consulting",
+  "founded": "1981",
+  "headquarters": "Bengaluru, Karnataka, India",
+  "ceo": "Salil Parekh",
+  "employees": "315,000+",
+  "globalPresence": "50+ countries",
+  "website": "https://www.infosys.com",
+  "careersPage": "https://www.infosys.com/careers",
+  "description": "Infosys is a global leader in next-generation digital services and consulting. It enables clients in more than 50 countries to navigate their digital transformation. With over four decades of experience in managing the systems and workings of global enterprises, Infosys expertly steers its clients through the many next of their digital journey.",
+  "businessDomains": [
+    "Financial Services",
+    "Insurance",
+    "Manufacturing",
+    "Energy, Utilities, Resources & Services",
+    "Communication & Services",
+    "Retail, Consumer & Logistics",
+    "Life Sciences",
+    "Healthcare"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    "Node.js",
+    "React",
+    "Angular",
+    "AI/ML",
+    "Cloud (AWS/Azure/GCP)",
+    "SAP",
+    "Salesforce",
+    "Oracle",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Navigate Your Next",
+    "highlights": [
+      "India's 2nd largest IT company",
+      "Fortune 500 company",
+      "Pioneer of Global Delivery Model",
+      "InfyTQ platform for student certification",
+      "Listed on NYSE, BSE & NSE"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "M.Sc",
+      "MCA",
+      "MCM"
+    ],
+    "branches": [
+      "All engineering branches",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "Generally 1 active backlog allowed (varies by drive)",
+    "gap": "Maximum 2 years academic gap",
+    "batch": "2024, 2025",
+    "note": "Always verify specific drive requirements on official Infosys careers page or InfyTQ."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on candidate experiences and PrepInsta/GeeksforGeeks reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Systems Engineer (SE)",
+        "package": "3.6 LPA",
+        "description": "Mass hiring role for fresh graduates"
+      },
+      {
+        "title": "Digital Specialist Engineer (DSE)",
+        "package": "6.25 - 6.5 LPA",
+        "description": "Requires higher coding assessment score or InfyTQ certification with 50%+"
+      },
+      {
+        "title": "Specialist Programmer (SP)",
+        "package": "9.5 LPA",
+        "description": "Top-tier role, selected via HackWithInfy or InfyTQ high-performers (65%+)"
+      }
+    ],
+    "hiringProgram": "Campus Drive / HackWithInfy / InfyTQ Certification",
+    "assessmentPlatform": "Infosys Assessment Platform / InfyTQ",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Test (SE Pattern)",
+        "type": "Online Assessment",
+        "duration": "95 minutes",
+        "description": "Standard assessment for Systems Engineer role covering multiple sections.",
+        "sections": [
+          {
+            "name": "Technical Ability (Quant & DI)",
+            "questions": 10,
+            "time": "35 min"
+          },
+          {
+            "name": "Logical Reasoning",
+            "questions": 15,
+            "time": "25 min"
+          },
+          {
+            "name": "Verbal Ability",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Pseudo Code",
+            "questions": 5,
+            "time": "10 min"
+          },
+          {
+            "name": "Puzzle Solving",
+            "questions": 4,
+            "time": "5 min"
+          }
+        ],
+        "negativeMark": "No negative marking"
+      },
+      {
+        "roundNumber": 2,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-60 minutes",
+        "description": "Covers programming concepts, projects, DSA, and core CS subjects.",
+        "topics": [
+          "C/Java/Python basics",
+          "OOPs",
+          "DSA",
+          "DBMS",
+          "OS",
+          "Projects",
+          "Puzzles"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "20-30 minutes",
+        "description": "Behavioral assessment covering motivation, career goals, and cultural fit.",
+        "topics": [
+          "Self Introduction",
+          "Why Infosys?",
+          "Strengths & Weaknesses",
+          "Career Goals",
+          "Relocation"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "infoTQ": {
+      "description": "InfyTQ is Infosys's official learning and certification platform for students. Scoring 50%+ qualifies for DSE interview; 65%+ qualifies for SP track.",
+      "url": "https://infytq.infosys.com",
+      "benefits": [
+        "Direct interview shortlisting",
+        "Higher package eligibility",
+        "Infosys recognition"
+      ]
+    },
+    "preparationTime": "4-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "Verbal Ability",
+      "Pseudo Code / Programming Logic",
+      "Data Structures & Algorithms",
+      "Core CS subjects (DBMS, OS, CN)",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Register on InfyTQ and earn certifications for better role eligibility",
+      "Practice Pseudocode questions — unique filter in Infosys assessment",
+      "Focus on verbal ability: it carries significant weight",
+      "For DSE role, solve 50+ coding questions on LeetCode/HackerRank",
+      "HackWithInfy is a separate pathway — participate if eligible",
+      "Keep your final year project technically strong"
+    ],
+    "commonMistakes": [
+      "Skipping InfyTQ platform registration",
+      "Not preparing verbal ability section",
+      "Attempting Pseudocode without practice",
+      "Ignoring puzzle-solving section"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-60 min",
+      "topics": [
+        "OOPs",
+        "DBMS",
+        "OS",
+        "DSA",
+        "Coding in Java/Python/C",
+        "Final Year Project",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Be thorough with OOPs concepts",
+        "Know SQL queries well",
+        "Prepare 2-3 projects with technical depth",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "20-30 min",
+      "topics": [
+        "Tell me about yourself",
+        "Why Infosys?",
+        "5-year goal",
+        "Relocation readiness",
+        "Strengths & Weaknesses"
+      ],
+      "tips": [
+        "Be confident and genuine",
+        "Research Infosys's recent projects and values",
+        "Show eagerness to learn new tech"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Infosys Official Careers",
+      "url": "https://www.infosys.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "InfyTQ Platform",
+      "url": "https://infytq.infosys.com",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Infosys Pattern",
+      "url": "https://prepinsta.com/infosys",
+      "type": "educational"
+    }
+  ]
+}

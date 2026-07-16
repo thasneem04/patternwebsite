@@ -1,0 +1,702 @@
+[
+  {
+    "id": "ibm-q1",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q2",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Zero-shot",
+      "Random sampling",
+      "Temperature 0"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q3",
+    "question": "If 2 apples cost $13, how much do 8 apples cost?",
+    "options": [
+      "$54.00",
+      "$51.00",
+      "$52.00",
+      "$53.00"
+    ],
+    "correctAnswer": "$52.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q4",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q5",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Few-shot",
+      "Chain-of-Thought",
+      "Temperature 1",
+      "Negative prompting"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q6",
+    "question": "A train running at 54 km/hr crosses a pole in 7 seconds. What is the length of the train in metres?",
+    "options": [
+      "115",
+      "95",
+      "125",
+      "105"
+    ],
+    "correctAnswer": "105",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q7",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q8",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Temperature 0",
+      "Chain-of-Thought",
+      "Random sampling",
+      "Zero-shot"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q9",
+    "question": "If 2 apples cost $14, how much do 6 apples cost?",
+    "options": [
+      "$42.00",
+      "$43.00",
+      "$41.00",
+      "$44.00"
+    ],
+    "correctAnswer": "$42.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q10",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(log n)",
+      "O(1)",
+      "O(n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q11",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Few-shot",
+      "Negative prompting",
+      "Temperature 1"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q12",
+    "question": "A train running at 72 km/hr crosses a pole in 5 seconds. What is the length of the train in metres?",
+    "options": [
+      "110",
+      "100",
+      "90",
+      "120"
+    ],
+    "correctAnswer": "100",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q13",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q14",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Zero-shot",
+      "Temperature 0",
+      "Chain-of-Thought",
+      "Random sampling"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q15",
+    "question": "If 2 apples cost $10, how much do 8 apples cost?",
+    "options": [
+      "$41.00",
+      "$39.00",
+      "$40.00",
+      "$42.00"
+    ],
+    "correctAnswer": "$40.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q16",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q17",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Negative prompting",
+      "Temperature 1",
+      "Few-shot"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q18",
+    "question": "A train running at 90 km/hr crosses a pole in 7 seconds. What is the length of the train in metres?",
+    "options": [
+      "195",
+      "165",
+      "185",
+      "175"
+    ],
+    "correctAnswer": "175",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q19",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(1)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q20",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Zero-shot",
+      "Temperature 0",
+      "Random sampling"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q21",
+    "question": "If 2 apples cost $11, how much do 6 apples cost?",
+    "options": [
+      "$32.00",
+      "$33.00",
+      "$34.00",
+      "$35.00"
+    ],
+    "correctAnswer": "$33.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q22",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q23",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Few-shot",
+      "Chain-of-Thought",
+      "Temperature 1",
+      "Negative prompting"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q24",
+    "question": "A train running at 108 km/hr crosses a pole in 5 seconds. What is the length of the train in metres?",
+    "options": [
+      "150",
+      "140",
+      "160",
+      "170"
+    ],
+    "correctAnswer": "150",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q25",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q26",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Zero-shot",
+      "Random sampling",
+      "Chain-of-Thought",
+      "Temperature 0"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q27",
+    "question": "If 2 apples cost $12, how much do 8 apples cost?",
+    "options": [
+      "$48.00",
+      "$50.00",
+      "$47.00",
+      "$49.00"
+    ],
+    "correctAnswer": "$48.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q28",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q29",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Few-shot",
+      "Negative prompting",
+      "Temperature 1",
+      "Chain-of-Thought"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q30",
+    "question": "A train running at 36 km/hr crosses a pole in 7 seconds. What is the length of the train in metres?",
+    "options": [
+      "70",
+      "90",
+      "80",
+      "60"
+    ],
+    "correctAnswer": "70",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q31",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q32",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Temperature 0",
+      "Zero-shot",
+      "Random sampling"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q33",
+    "question": "If 2 apples cost $13, how much do 6 apples cost?",
+    "options": [
+      "$41.00",
+      "$39.00",
+      "$38.00",
+      "$40.00"
+    ],
+    "correctAnswer": "$39.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q34",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q35",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Few-shot",
+      "Temperature 1",
+      "Negative prompting"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q36",
+    "question": "A train running at 54 km/hr crosses a pole in 5 seconds. What is the length of the train in metres?",
+    "options": [
+      "95",
+      "85",
+      "75",
+      "65"
+    ],
+    "correctAnswer": "75",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q37",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q38",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Random sampling",
+      "Chain-of-Thought",
+      "Zero-shot",
+      "Temperature 0"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q39",
+    "question": "If 2 apples cost $14, how much do 8 apples cost?",
+    "options": [
+      "$56.00",
+      "$55.00",
+      "$58.00",
+      "$57.00"
+    ],
+    "correctAnswer": "$56.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q40",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q41",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Negative prompting",
+      "Temperature 1",
+      "Few-shot"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q42",
+    "question": "A train running at 72 km/hr crosses a pole in 7 seconds. What is the length of the train in metres?",
+    "options": [
+      "150",
+      "140",
+      "130",
+      "160"
+    ],
+    "correctAnswer": "140",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q43",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(1)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q44",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Temperature 0",
+      "Random sampling",
+      "Zero-shot",
+      "Chain-of-Thought"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q45",
+    "question": "If 2 apples cost $10, how much do 6 apples cost?",
+    "options": [
+      "$31.00",
+      "$30.00",
+      "$29.00",
+      "$32.00"
+    ],
+    "correctAnswer": "$30.00",
+    "explanation": "Calculate the unit price and multiply.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q46",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(n^2)",
+      "O(n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q47",
+    "question": "Which technique is best for format instruction in Prompt Engineering?",
+    "options": [
+      "Chain-of-Thought",
+      "Few-shot",
+      "Temperature 1",
+      "Negative prompting"
+    ],
+    "correctAnswer": "Few-shot",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "ibm-q48",
+    "question": "A train running at 90 km/hr crosses a pole in 5 seconds. What is the length of the train in metres?",
+    "options": [
+      "145",
+      "135",
+      "125",
+      "115"
+    ],
+    "correctAnswer": "125",
+    "explanation": "Convert speed to m/s and multiply by time.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "ibm-q49",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(n^2)",
+    "explanation": "Standard algorithm time complexity.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "ibm-q50",
+    "question": "Which technique is best for complex reasoning in Prompt Engineering?",
+    "options": [
+      "Temperature 0",
+      "Zero-shot",
+      "Random sampling",
+      "Chain-of-Thought"
+    ],
+    "correctAnswer": "Chain-of-Thought",
+    "explanation": "Matching the task to the most suitable prompting technique.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  }
+]

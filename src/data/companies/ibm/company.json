@@ -1,0 +1,237 @@
+{
+  "id": "ibm",
+  "name": "IBM",
+  "shortName": "IBM",
+  "logo": "🔵",
+  "color": "#054ADA",
+  "gradient": "linear-gradient(135deg, #054ADA, #0F62FE)",
+  "industry": "IT Services, Consulting & Technology",
+  "founded": "1911",
+  "headquarters": "Armonk, New York, USA (India: Bengaluru)",
+  "ceo": "Arvind Krishna",
+  "employees": "280,000+",
+  "globalPresence": "170+ countries",
+  "website": "https://www.ibm.com",
+  "careersPage": "https://www.ibm.com/careers",
+  "description": "IBM (International Business Machines) is a leading global hybrid cloud and AI, and business services provider. IBM helps clients in more than 175 countries capitalize on insights from their data, streamline business processes, reduce costs and gain the competitive edge in their industries.",
+  "businessDomains": [
+    "Hybrid Cloud",
+    "AI & Automation",
+    "Security",
+    "Consulting",
+    "Infrastructure",
+    "Quantum Computing"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    "AI/ML",
+    "Cloud (IBM Cloud/AWS/Azure)",
+    "Red Hat OpenShift",
+    "Blockchain",
+    "Quantum",
+    "Kubernetes",
+    "Docker",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Let's Create",
+    "highlights": [
+      "Over 110 years of innovation",
+      "Fortune 500 company",
+      "Leader in Hybrid Cloud & AI",
+      "Red Hat acquisition — Linux/OpenShift powerhouse",
+      "Listed on NYSE"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and allied branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs at time of application or joining",
+    "gap": "Maximum 1 year gap after 12th standard",
+    "batch": "2024, 2025",
+    "note": "Freshers only for ASE role. Assessment often conducted via HackerRank platform."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on candidate experiences, PrepInsta and IBM Careers website",
+    "sourceType": "mixed",
+    "roles": [
+      {
+        "title": "Associate System Engineer",
+        "package": "4.5 - 6 LPA",
+        "description": "Entry-level engineering role for fresh graduates"
+      }
+    ],
+    "hiringProgram": "Campus Drive / IBM Careers Portal",
+    "assessmentPlatform": "HackerRank / IBM Platform",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment",
+        "type": "Coding + English",
+        "duration": "60-85 minutes",
+        "description": "First elimination round with coding problems and English language test.",
+        "sections": [
+          {
+            "name": "Coding Test",
+            "questions": 2,
+            "time": "50-55 min",
+            "languages": [
+              "C",
+              "C++",
+              "Java",
+              "Python"
+            ]
+          },
+          {
+            "name": "English Language Test (Grammar, Vocab, Reading)",
+            "questions": 20,
+            "time": "10-30 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Group Discussion",
+        "type": "Communication",
+        "duration": "15-20 minutes",
+        "description": "Campus-specific round to assess communication, teamwork, and analytical thinking.",
+        "topics": [
+          "Current technology topics",
+          "General awareness",
+          "Team communication"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-60 minutes",
+        "description": "Focused on projects, programming fundamentals, core CS subjects, and problem-solving.",
+        "topics": [
+          "Projects",
+          "C/Java/Python basics",
+          "DSA",
+          "DBMS",
+          "OS",
+          "Networking",
+          "AI/Cloud basics"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-20 minutes",
+        "description": "Cultural fit, career goals, and behavioral assessment.",
+        "topics": [
+          "Self Introduction",
+          "Why IBM?",
+          "Career Goals",
+          "Strengths & Weaknesses",
+          "Teamwork"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Coding (Arrays, Strings, DSA basics)",
+      "English Communication",
+      "Core CS subjects",
+      "Cloud & AI basics",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "IBM uses HackerRank for assessments — practice on that platform",
+      "Coding test focuses on arrays, strings, basic DSA",
+      "Cloud and AI knowledge is a differentiator",
+      "Group discussion — speak clearly and add value to conversation"
+    ],
+    "commonMistakes": [
+      "Not practicing on HackerRank platform",
+      "Ignoring English test",
+      "Not knowing Cloud/AI basics"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-60 min",
+      "topics": [
+        "Projects",
+        "DSA",
+        "DBMS",
+        "OS",
+        "Networking",
+        "Cloud basics",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "IBM values cloud knowledge — mention any IBM Cloud or AWS experience",
+        "Know Kubernetes/Docker basics if possible",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why IBM?",
+        "Innovation examples",
+        "Team conflicts"
+      ],
+      "tips": [
+        "Mention IBM's focus on hybrid cloud and AI",
+        "Show passion for technology and innovation"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "IBM Official Careers",
+      "url": "https://www.ibm.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - IBM Pattern",
+      "url": "https://prepinsta.com/ibm",
+      "type": "educational"
+    },
+    {
+      "name": "GeeksforGeeks - IBM Interview",
+      "url": "https://geeksforgeeks.org/ibm-interview-questions",
+      "type": "educational"
+    }
+  ]
+}

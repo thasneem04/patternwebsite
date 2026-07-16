@@ -1,0 +1,287 @@
+{
+  "id": "hexaware",
+  "name": "Hexaware Technologies",
+  "shortName": "Hexaware",
+  "logo": "🔷",
+  "color": "#0066CC",
+  "gradient": "linear-gradient(135deg, #0066CC, #00AAFF)",
+  "industry": "IT Services & Consulting",
+  "founded": "1990",
+  "headquarters": "Mumbai, Maharashtra, India",
+  "ceo": "Srikrishna Ramakarthikeyan",
+  "employees": "35,000+",
+  "globalPresence": "25+ countries",
+  "website": "https://hexaware.com",
+  "careersPage": "https://hexaware.com/careers",
+  "description": "Hexaware Technologies is a global IT services company that provides automation-led, intelligence-driven, and cloud-native digital transformation services. The company serves clients across Banking, Financial Services, Insurance, Healthcare, Manufacturing, and Professional Services verticals.",
+  "businessDomains": [
+    "Banking & Financial Services",
+    "Healthcare & Insurance",
+    "Manufacturing",
+    "Professional Services",
+    "Travel & Transport",
+    "Consumer & Industries"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    "React",
+    "Node.js",
+    "Angular",
+    "Cloud (AWS/Azure/GCP)",
+    "AI/ML",
+    "RPA",
+    "Automation Anywhere",
+    "SAP",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Automate Everything, Cloudify Everything, Transform Customer Experiences",
+    "highlights": [
+      "Top 10 IT Services company in India",
+      "350+ global clients",
+      "Specializes in Automation & AI",
+      "Listed on BSE & NSE",
+      "CMM Level 5 certified"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "MCA"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "EIE",
+      "ICE"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs",
+    "gap": "Maximum 1 year academic gap",
+    "batch": "2024, 2025",
+    "note": "M.E./M.Tech candidates generally not eligible for GET role. Mechanical and Civil branches usually not eligible."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on recent candidate experiences and PrepInsta reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Graduate Engineer Trainee (GET)",
+        "package": "3.5 - 4.5 LPA",
+        "description": "Mass hiring role for fresh engineering graduates"
+      },
+      {
+        "title": "Premier Graduate Engineer Trainee (PGET)",
+        "package": "5.0 - 6.5 LPA",
+        "description": "Advanced role with coding assessment, for higher-performing candidates"
+      }
+    ],
+    "hiringProgram": "Campus Drive / Off-Campus Drive",
+    "assessmentPlatform": "Superset / CoCubes",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Resume Shortlisting",
+        "type": "Screening",
+        "duration": "N/A",
+        "description": "Initial screening based on academic record, CGPA, and profile criteria. Shortlisted candidates receive a test link.",
+        "topics": [
+          "Academic performance",
+          "CGPA check",
+          "Branch eligibility"
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Online Assessment",
+        "type": "Aptitude + Technical",
+        "duration": "90-120 minutes",
+        "description": "Covers Quantitative Aptitude, Logical Reasoning, Verbal Ability, Pseudocode, and Computer Fundamentals.",
+        "topics": [
+          "Quantitative Aptitude",
+          "Logical Reasoning",
+          "Verbal Ability",
+          "Pseudocode",
+          "Computer Fundamentals (OS, DBMS, CN)",
+          "Data Structures basics"
+        ],
+        "sections": [
+          {
+            "name": "Aptitude",
+            "questions": 25,
+            "time": "30 min"
+          },
+          {
+            "name": "Pseudocode",
+            "questions": 10,
+            "time": "20 min"
+          },
+          {
+            "name": "Verbal",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Technical MCQ",
+            "questions": 20,
+            "time": "30 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Coding Test",
+        "type": "Coding",
+        "duration": "60 minutes",
+        "description": "Only for PGET track. 2-3 coding problems based on arrays, strings, loops, and data structures.",
+        "topics": [
+          "Arrays",
+          "Strings",
+          "Loops",
+          "Data Structures",
+          "Algorithms"
+        ],
+        "note": "PGET track only"
+      },
+      {
+        "roundNumber": 4,
+        "name": "Communication Assessment",
+        "type": "Communication",
+        "duration": "20-30 minutes",
+        "description": "AI-proctored English communication test evaluating speaking, listening, reading, and grammar skills.",
+        "topics": [
+          "Spoken English",
+          "Grammar",
+          "Listening",
+          "Reading Comprehension"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Face-to-face or virtual interview. Focuses on programming concepts, projects, data structures, and technical fundamentals.",
+        "topics": [
+          "C/Java/Python fundamentals",
+          "DSA",
+          "DBMS",
+          "Projects",
+          "OOPs"
+        ]
+      },
+      {
+        "roundNumber": 6,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-30 minutes",
+        "description": "Cultural fit assessment, behavioral questions, and HR-related queries.",
+        "topics": [
+          "Strengths & Weaknesses",
+          "Career Goals",
+          "Relocation",
+          "Service Agreement"
+        ]
+      },
+      {
+        "roundNumber": 7,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "serviceAgreement": "3 years bond with approximately ₹2 Lakhs penalty",
+    "preparationTime": "4-6 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Pseudocode",
+      "Data Structures & Algorithms",
+      "Quantitative Aptitude",
+      "Verbal Ability",
+      "Computer Fundamentals",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Focus heavily on Pseudocode — it's unique to Hexaware's assessment",
+      "Practice output-based questions in C/C++/Java",
+      "Strengthen fundamentals: OS, DBMS, Computer Networks",
+      "Practice aptitude from previous Hexaware papers",
+      "Prepare 2-3 strong project explanations",
+      "Be ready to discuss your final year project in depth"
+    ],
+    "commonMistakes": [
+      "Ignoring Pseudocode section",
+      "Not practicing Computer Fundamentals",
+      "Poor verbal/communication skills",
+      "Not reading the service agreement carefully"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "OOPs Concepts",
+        "DSA",
+        "DBMS",
+        "OS",
+        "Computer Networks",
+        "Final Year Project",
+        "Coding in C/Java/Python",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Know your project inside-out",
+        "Be confident with atleast one programming language",
+        "Revise core CS subjects",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-30 min",
+      "topics": [
+        "Self Introduction",
+        "Why Hexaware?",
+        "Strengths & Weaknesses",
+        "Career Goals",
+        "Relocation",
+        "Service Agreement"
+      ],
+      "tips": [
+        "Be genuine",
+        "Research about Hexaware's work culture",
+        "Express willingness to learn"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Hexaware Official Careers",
+      "url": "https://hexaware.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Hexaware Pattern",
+      "url": "https://prepinsta.com/hexaware",
+      "type": "educational"
+    },
+    {
+      "name": "GeeksforGeeks - Hexaware Interview",
+      "url": "https://geeksforgeeks.org/hexaware-interview-questions",
+      "type": "educational"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "hcl",
+  "name": "HCL Technologies",
+  "shortName": "HCL",
+  "logo": "🟢",
+  "color": "#005EB8",
+  "gradient": "linear-gradient(135deg, #005EB8, #009FE3)",
+  "industry": "IT Services & Consulting",
+  "founded": "1976",
+  "headquarters": "Noida, Uttar Pradesh, India",
+  "ceo": "C Vijayakumar",
+  "employees": "225,000+",
+  "globalPresence": "60+ countries",
+  "website": "https://www.hcltech.com",
+  "careersPage": "https://www.hcltech.com/careers",
+  "description": "HCL Technologies is a next-generation global technology company that helps enterprises reimagine their businesses for the digital age. HCL's technology products, services, and engineering are built on four decades of innovation.",
+  "businessDomains": [
+    "IT & Business Services",
+    "Engineering & R&D",
+    "HCLSoftware",
+    "Digital Business",
+    "Cloud & Cybersecurity"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "Angular",
+    "SAP",
+    "Salesforce",
+    "AWS",
+    "Azure",
+    "Cybersecurity tools",
+    "IoT",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Supercharging Progress",
+    "highlights": [
+      "India's 4th largest IT company",
+      "Strong Engineering & R&D practice",
+      "HCLSoftware products portfolio",
+      "Listed on BSE & NSE",
+      "GET & HLFT programs for freshers"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "B.Sc (IT/CS)"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and relevant engineering branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs at time of assessment and interview",
+    "gap": "Maximum 1-2 years academic gap allowed",
+    "batch": "2024, 2025",
+    "note": "Some roles may require 70-75%. Apply through official HCLTech Careers. HCL does NOT charge any recruitment fees."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on recent candidate experiences and HCLTech Careers announcements",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Graduate Engineer Trainee (GET)",
+        "package": "3.5 - 4 LPA",
+        "description": "Standard fresher role for engineering graduates"
+      },
+      {
+        "title": "Technology Fresher",
+        "package": "3.5 LPA",
+        "description": "Entry-level IT role"
+      }
+    ],
+    "hiringProgram": "Campus Drive / Fresher Drive",
+    "assessmentPlatform": "HCL Internal Platform / Third-party platforms",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment",
+        "type": "Aptitude + Technical + Coding",
+        "duration": "90-120 minutes",
+        "description": "Computer-based test covering quantitative, reasoning, verbal, computer fundamentals, and coding sections.",
+        "sections": [
+          {
+            "name": "Quantitative / Numerical Ability",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Logical Reasoning",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Verbal Ability",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Computer Fundamentals (OS, DBMS, CN, OOPs)",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Coding",
+            "questions": 2,
+            "time": "30 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "One-on-one interview covering programming fundamentals, DSA, DBMS, OS, and final year project.",
+        "topics": [
+          "C/Java/Python fundamentals",
+          "Data Structures",
+          "DBMS",
+          "OS",
+          "Computer Networks",
+          "OOPs",
+          "Final Year Project"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-30 minutes",
+        "description": "Communication skills, cultural fit, and willingness to relocate/work in shifts.",
+        "topics": [
+          "Self Introduction",
+          "Why HCL?",
+          "Strengths & Weaknesses",
+          "Relocation",
+          "Shift work readiness"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "4-6 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "Computer Fundamentals",
+      "OOPs",
+      "DBMS",
+      "OS",
+      "Basic Coding",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Computer Fundamentals section is a strong filter — revise OS, DBMS, CN thoroughly",
+      "Basic coding in Java/C is sufficient",
+      "Practice aptitude from standard books",
+      "Know your final year project very well"
+    ],
+    "commonMistakes": [
+      "Ignoring Computer Fundamentals",
+      "Weak aptitude preparation",
+      "Not knowing basic coding"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "OOPs",
+        "C/Java basics",
+        "DBMS SQL",
+        "OS concepts",
+        "Projects",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Keep answers concise and to the point",
+        "Know ACID properties, joins, normalization",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why HCL?",
+        "Future goals",
+        "Shift willingness",
+        "Relocation"
+      ],
+      "tips": [
+        "Be positive about shift work",
+        "Research HCL's major clients and domains"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "HCLTech Official Careers",
+      "url": "https://www.hcltech.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - HCL Pattern",
+      "url": "https://prepinsta.com/hcl-technologies",
+      "type": "educational"
+    }
+  ]
+}

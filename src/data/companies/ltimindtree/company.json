@@ -1,0 +1,243 @@
+{
+  "id": "ltimindtree",
+  "name": "LTIMindtree",
+  "shortName": "LTIMindtree",
+  "logo": "🟠",
+  "color": "#E95D1E",
+  "gradient": "linear-gradient(135deg, #E95D1E, #FF8C42)",
+  "industry": "IT Services & Consulting",
+  "founded": "2022 (merger of L&T Infotech + Mindtree)",
+  "headquarters": "Mumbai, Maharashtra, India",
+  "ceo": "Sudhir Chaturvedi",
+  "employees": "82,000+",
+  "globalPresence": "30+ countries",
+  "website": "https://www.ltimindtree.com",
+  "careersPage": "https://www.ltimindtree.com/careers",
+  "description": "LTIMindtree is a global technology consulting and digital solutions company that enables enterprises across industries to reimagine business models, accelerate innovation, and maximize growth. Born out of the merger of L&T Infotech and Mindtree in 2022.",
+  "businessDomains": [
+    "Banking, Financial Services & Insurance",
+    "Manufacturing",
+    "Consumer Business",
+    "Communications & Media",
+    "Technology, Media & Entertainment",
+    "Healthcare & Life Sciences"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "React",
+    "Angular",
+    "Microservices",
+    "AI/ML",
+    "Cloud (AWS/Azure/GCP)",
+    "Automation",
+    "IoT",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Infinite Possibilities",
+    "highlights": [
+      "Born from merger of LTI and Mindtree",
+      "Tata & L&T Group backed",
+      "Strong in BFSI and Manufacturing verticals",
+      "Listed on BSE & NSE",
+      "Growing digital transformation practice"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and relevant engineering branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs at time of hiring",
+    "gap": "Maximum 1-2 years academic gap",
+    "batch": "2024, 2025",
+    "note": "Candidates who interviewed with LTIMindtree within the past 5-6 months are typically ineligible."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on recent candidate experiences, GeeksforGeeks and PrepInsta reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "package": "4.5 - 5 LPA",
+        "description": "Entry-level software engineering role for fresh graduates"
+      }
+    ],
+    "hiringProgram": "Campus / Off-Campus Drive",
+    "assessmentPlatform": "LTIMindtree Portal / AMCAT",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Pre-Placement Talk",
+        "type": "Introduction",
+        "duration": "30-45 minutes",
+        "description": "Company overview, job roles, growth opportunities, and Q&A session."
+      },
+      {
+        "roundNumber": 2,
+        "name": "Online Assessment",
+        "type": "Aptitude + Technical + Coding",
+        "duration": "120-130 minutes",
+        "description": "Comprehensive elimination round covering aptitude, verbal, technical MCQs, and coding.",
+        "sections": [
+          {
+            "name": "Quantitative Aptitude + Logical Reasoning",
+            "questions": 30,
+            "time": "40 min"
+          },
+          {
+            "name": "English Comprehension + Verbal",
+            "questions": 20,
+            "time": "30 min"
+          },
+          {
+            "name": "Technical (DBMS, OOPs, OS)",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Coding",
+            "questions": 2,
+            "time": "35 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Focus on core subjects, DSA, programming, and final year project.",
+        "topics": [
+          "OOPs concepts",
+          "DBMS (SQL, Normalization)",
+          "Data Structures",
+          "Algorithms",
+          "OS",
+          "Final Year Project",
+          "Java/Python/C++"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-20 minutes",
+        "description": "Cultural fit, behavioral traits, and readiness assessment.",
+        "topics": [
+          "Self Introduction",
+          "Why LTIMindtree?",
+          "Strengths",
+          "Weaknesses",
+          "Team experience",
+          "Relocation"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "Varies by test section",
+    "preparationTime": "4-6 weeks",
+    "difficultyLevel": "Moderate to High",
+    "keyTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "Verbal Ability",
+      "DBMS & OOPs",
+      "Data Structures",
+      "Coding (Easy-Medium)",
+      "Communication Skills",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Focus strongly on core CS subjects — DBMS, OOPs, OS are important",
+      "Coding test has moderate difficulty — solve 50+ problems on LeetCode",
+      "Verbal/communication skills matter",
+      "Know your project architecture and tech stack in detail"
+    ],
+    "commonMistakes": [
+      "Weak technical preparation",
+      "Not knowing OOPs concepts well",
+      "Poor aptitude performance"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "OOPs",
+        "DBMS",
+        "DSA",
+        "OS",
+        "Project discussion",
+        "Coding question",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Practice common SQL queries",
+        "Know design patterns if possible",
+        "Be ready for live coding",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why LTIMindtree?",
+        "Career aspirations",
+        "Teamwork",
+        "Strengths"
+      ],
+      "tips": [
+        "Mention specific LTIMindtree domains you are interested in",
+        "Be enthusiastic about the merger and new opportunities"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "LTIMindtree Official Careers",
+      "url": "https://www.ltimindtree.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "GeeksforGeeks - LTIMindtree",
+      "url": "https://geeksforgeeks.org/ltimindtree-interview-questions",
+      "type": "educational"
+    },
+    {
+      "name": "PrepInsta - LTIMindtree",
+      "url": "https://prepinsta.com/ltimindtree",
+      "type": "educational"
+    }
+  ]
+}

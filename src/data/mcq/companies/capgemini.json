@@ -1,0 +1,452 @@
+[
+  {
+    "id": "cap-1",
+    "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+    "options": ["32", "24", "64", "48"],
+    "correctAnswer": "32",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-2",
+    "question": "If a train 100 meters long passes a telegraph pole in 10 seconds, what is its speed?",
+    "options": ["10 m/s", "20 m/s", "15 m/s", "5 m/s"],
+    "correctAnswer": "10 m/s",
+    "explanation": "Speed = Distance/Time = 100/10 = 10 m/s.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-3",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue is First In First Out.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-4",
+    "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Balanced BSTs reduce search space by half at each step.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-5",
+    "question": "What does 'Zero-Shot Prompting' refer to in GenAI?",
+    "options": ["Providing zero tokens in the prompt", "Asking a model to perform a task without giving any examples", "Using a model that has zero parameters", "Training a model with zero data"],
+    "correctAnswer": "Asking a model to perform a task without giving any examples",
+    "explanation": "Zero-shot prompting implies no examples are provided in the prompt.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-6",
+    "question": "Which prompting technique involves asking the model to think step-by-step?",
+    "options": ["Few-Shot", "Zero-Shot", "Chain of Thought", "Tree of Thoughts"],
+    "correctAnswer": "Chain of Thought",
+    "explanation": "Chain of Thought encourages step-by-step reasoning.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-7",
+    "question": "What is the next number in the series: 3, 6, 12, 24, ...?",
+    "options": ["30", "36", "48", "60"],
+    "correctAnswer": "48",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-8",
+    "question": "What is the output of 5 + 2 * 3 in Python?",
+    "options": ["21", "11", "10", "15"],
+    "correctAnswer": "11",
+    "explanation": "Multiplication has higher precedence: 2*3 = 6, then 5+6 = 11.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-9",
+    "question": "What is the primary role of system prompts in LLMs?",
+    "options": ["To crash the system", "To set the behavior and persona of the assistant", "To allocate memory", "To train the model from scratch"],
+    "correctAnswer": "To set the behavior and persona of the assistant",
+    "explanation": "System prompts define the persona and constraints.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-10",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+    "options": ["100 minutes", "5 minutes", "50 minutes", "10 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes one widget in 5 minutes.",
+    "difficulty": "Hard",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-11",
+    "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+    "options": ["32", "24", "64", "48"],
+    "correctAnswer": "32",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-12",
+    "question": "If a train 100 meters long passes a telegraph pole in 10 seconds, what is its speed?",
+    "options": ["10 m/s", "20 m/s", "15 m/s", "5 m/s"],
+    "correctAnswer": "10 m/s",
+    "explanation": "Speed = Distance/Time = 100/10 = 10 m/s.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-13",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue is First In First Out.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-14",
+    "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Balanced BSTs reduce search space by half at each step.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-15",
+    "question": "What does 'Zero-Shot Prompting' refer to in GenAI?",
+    "options": ["Providing zero tokens in the prompt", "Asking a model to perform a task without giving any examples", "Using a model that has zero parameters", "Training a model with zero data"],
+    "correctAnswer": "Asking a model to perform a task without giving any examples",
+    "explanation": "Zero-shot prompting implies no examples are provided in the prompt.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-16",
+    "question": "Which prompting technique involves asking the model to think step-by-step?",
+    "options": ["Few-Shot", "Zero-Shot", "Chain of Thought", "Tree of Thoughts"],
+    "correctAnswer": "Chain of Thought",
+    "explanation": "Chain of Thought encourages step-by-step reasoning.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-17",
+    "question": "What is the next number in the series: 3, 6, 12, 24, ...?",
+    "options": ["30", "36", "48", "60"],
+    "correctAnswer": "48",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-18",
+    "question": "What is the output of 5 + 2 * 3 in Python?",
+    "options": ["21", "11", "10", "15"],
+    "correctAnswer": "11",
+    "explanation": "Multiplication has higher precedence: 2*3 = 6, then 5+6 = 11.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-19",
+    "question": "What is the primary role of system prompts in LLMs?",
+    "options": ["To crash the system", "To set the behavior and persona of the assistant", "To allocate memory", "To train the model from scratch"],
+    "correctAnswer": "To set the behavior and persona of the assistant",
+    "explanation": "System prompts define the persona and constraints.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-20",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+    "options": ["100 minutes", "5 minutes", "50 minutes", "10 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes one widget in 5 minutes.",
+    "difficulty": "Hard",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-21",
+    "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+    "options": ["32", "24", "64", "48"],
+    "correctAnswer": "32",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-22",
+    "question": "If a train 100 meters long passes a telegraph pole in 10 seconds, what is its speed?",
+    "options": ["10 m/s", "20 m/s", "15 m/s", "5 m/s"],
+    "correctAnswer": "10 m/s",
+    "explanation": "Speed = Distance/Time = 100/10 = 10 m/s.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-23",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue is First In First Out.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-24",
+    "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Balanced BSTs reduce search space by half at each step.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-25",
+    "question": "What does 'Zero-Shot Prompting' refer to in GenAI?",
+    "options": ["Providing zero tokens in the prompt", "Asking a model to perform a task without giving any examples", "Using a model that has zero parameters", "Training a model with zero data"],
+    "correctAnswer": "Asking a model to perform a task without giving any examples",
+    "explanation": "Zero-shot prompting implies no examples are provided in the prompt.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-26",
+    "question": "Which prompting technique involves asking the model to think step-by-step?",
+    "options": ["Few-Shot", "Zero-Shot", "Chain of Thought", "Tree of Thoughts"],
+    "correctAnswer": "Chain of Thought",
+    "explanation": "Chain of Thought encourages step-by-step reasoning.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-27",
+    "question": "What is the next number in the series: 3, 6, 12, 24, ...?",
+    "options": ["30", "36", "48", "60"],
+    "correctAnswer": "48",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-28",
+    "question": "What is the output of 5 + 2 * 3 in Python?",
+    "options": ["21", "11", "10", "15"],
+    "correctAnswer": "11",
+    "explanation": "Multiplication has higher precedence: 2*3 = 6, then 5+6 = 11.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-29",
+    "question": "What is the primary role of system prompts in LLMs?",
+    "options": ["To crash the system", "To set the behavior and persona of the assistant", "To allocate memory", "To train the model from scratch"],
+    "correctAnswer": "To set the behavior and persona of the assistant",
+    "explanation": "System prompts define the persona and constraints.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-30",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+    "options": ["100 minutes", "5 minutes", "50 minutes", "10 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes one widget in 5 minutes.",
+    "difficulty": "Hard",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-31",
+    "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+    "options": ["32", "24", "64", "48"],
+    "correctAnswer": "32",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-32",
+    "question": "If a train 100 meters long passes a telegraph pole in 10 seconds, what is its speed?",
+    "options": ["10 m/s", "20 m/s", "15 m/s", "5 m/s"],
+    "correctAnswer": "10 m/s",
+    "explanation": "Speed = Distance/Time = 100/10 = 10 m/s.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-33",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue is First In First Out.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-34",
+    "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Balanced BSTs reduce search space by half at each step.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-35",
+    "question": "What does 'Zero-Shot Prompting' refer to in GenAI?",
+    "options": ["Providing zero tokens in the prompt", "Asking a model to perform a task without giving any examples", "Using a model that has zero parameters", "Training a model with zero data"],
+    "correctAnswer": "Asking a model to perform a task without giving any examples",
+    "explanation": "Zero-shot prompting implies no examples are provided in the prompt.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-36",
+    "question": "Which prompting technique involves asking the model to think step-by-step?",
+    "options": ["Few-Shot", "Zero-Shot", "Chain of Thought", "Tree of Thoughts"],
+    "correctAnswer": "Chain of Thought",
+    "explanation": "Chain of Thought encourages step-by-step reasoning.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-37",
+    "question": "What is the next number in the series: 3, 6, 12, 24, ...?",
+    "options": ["30", "36", "48", "60"],
+    "correctAnswer": "48",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-38",
+    "question": "What is the output of 5 + 2 * 3 in Python?",
+    "options": ["21", "11", "10", "15"],
+    "correctAnswer": "11",
+    "explanation": "Multiplication has higher precedence: 2*3 = 6, then 5+6 = 11.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-39",
+    "question": "What is the primary role of system prompts in LLMs?",
+    "options": ["To crash the system", "To set the behavior and persona of the assistant", "To allocate memory", "To train the model from scratch"],
+    "correctAnswer": "To set the behavior and persona of the assistant",
+    "explanation": "System prompts define the persona and constraints.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-40",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+    "options": ["100 minutes", "5 minutes", "50 minutes", "10 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes one widget in 5 minutes.",
+    "difficulty": "Hard",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-41",
+    "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+    "options": ["32", "24", "64", "48"],
+    "correctAnswer": "32",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-42",
+    "question": "If a train 100 meters long passes a telegraph pole in 10 seconds, what is its speed?",
+    "options": ["10 m/s", "20 m/s", "15 m/s", "5 m/s"],
+    "correctAnswer": "10 m/s",
+    "explanation": "Speed = Distance/Time = 100/10 = 10 m/s.",
+    "difficulty": "Medium",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-43",
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue is First In First Out.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-44",
+    "question": "What is the time complexity of searching an element in a balanced Binary Search Tree?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Balanced BSTs reduce search space by half at each step.",
+    "difficulty": "Medium",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-45",
+    "question": "What does 'Zero-Shot Prompting' refer to in GenAI?",
+    "options": ["Providing zero tokens in the prompt", "Asking a model to perform a task without giving any examples", "Using a model that has zero parameters", "Training a model with zero data"],
+    "correctAnswer": "Asking a model to perform a task without giving any examples",
+    "explanation": "Zero-shot prompting implies no examples are provided in the prompt.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-46",
+    "question": "Which prompting technique involves asking the model to think step-by-step?",
+    "options": ["Few-Shot", "Zero-Shot", "Chain of Thought", "Tree of Thoughts"],
+    "correctAnswer": "Chain of Thought",
+    "explanation": "Chain of Thought encourages step-by-step reasoning.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-47",
+    "question": "What is the next number in the series: 3, 6, 12, 24, ...?",
+    "options": ["30", "36", "48", "60"],
+    "correctAnswer": "48",
+    "explanation": "Each number is multiplied by 2.",
+    "difficulty": "Easy",
+    "topic": "Aptitude"
+  },
+  {
+    "id": "cap-48",
+    "question": "What is the output of 5 + 2 * 3 in Python?",
+    "options": ["21", "11", "10", "15"],
+    "correctAnswer": "11",
+    "explanation": "Multiplication has higher precedence: 2*3 = 6, then 5+6 = 11.",
+    "difficulty": "Easy",
+    "topic": "Technical"
+  },
+  {
+    "id": "cap-49",
+    "question": "What is the primary role of system prompts in LLMs?",
+    "options": ["To crash the system", "To set the behavior and persona of the assistant", "To allocate memory", "To train the model from scratch"],
+    "correctAnswer": "To set the behavior and persona of the assistant",
+    "explanation": "System prompts define the persona and constraints.",
+    "difficulty": "Medium",
+    "topic": "Prompt Engineering"
+  },
+  {
+    "id": "cap-50",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+    "options": ["100 minutes", "5 minutes", "50 minutes", "10 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Each machine makes one widget in 5 minutes.",
+    "difficulty": "Hard",
+    "topic": "Aptitude"
+  }
+]

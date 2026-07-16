@@ -1,0 +1,247 @@
+{
+  "id": "accenture",
+  "name": "Accenture",
+  "shortName": "Accenture",
+  "logo": "🟤",
+  "color": "#A100FF",
+  "gradient": "linear-gradient(135deg, #A100FF, #7500C0)",
+  "industry": "IT Services, Consulting & Professional Services",
+  "founded": "1989",
+  "headquarters": "Dublin, Ireland (India: Mumbai)",
+  "ceo": "Julie Sweet",
+  "employees": "750,000+",
+  "globalPresence": "120+ countries",
+  "website": "https://www.accenture.com",
+  "careersPage": "https://careers.accenture.com",
+  "description": "Accenture is a global professional services company that provides strategy and consulting, interactive, technology, and operations services. Accenture drives innovation to improve the way the world works and lives. It partners across more than 120 countries.",
+  "businessDomains": [
+    "Strategy & Consulting",
+    "Interactive",
+    "Technology",
+    "Operations",
+    "Industry X"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "React",
+    "Node.js",
+    "AI/ML",
+    "Cloud (AWS/Azure/GCP)",
+    "SAP",
+    "Salesforce",
+    "Security",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Let There Be Change",
+    "highlights": [
+      "Fortune 500 company",
+      "One of the world's largest consulting firms",
+      "750,000+ employees globally",
+      "ASE & AASE roles for freshers",
+      "Listed on NYSE"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "branches": [
+      "All relevant engineering branches"
+    ],
+    "cgpa": "6.0 - 6.5 CGPA / 60%",
+    "backlogs": "No active backlogs at any point during selection or onboarding",
+    "gap": "Maximum 1 year gap allowed; degree must be completed within stipulated duration",
+    "batch": "2024, 2025",
+    "note": "Candidates must not have appeared for Accenture recruitment assessment/interview in the preceding 3 months. Must be Indian citizen or hold valid OCI/PIO documentation."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Accenture Official Careers Website and PrepInsta reports",
+    "sourceType": "mixed",
+    "sourceUrl": "https://careers.accenture.com",
+    "roles": [
+      {
+        "title": "Associate Software Engineer (ASE)",
+        "package": "4.5 LPA",
+        "description": "Standard entry-level software engineering role"
+      },
+      {
+        "title": "Advanced ASE (AASE)",
+        "package": "6.5 - 8 LPA",
+        "description": "Higher package role for top performers in assessment"
+      }
+    ],
+    "hiringProgram": "Campus Recruitment Drive",
+    "assessmentPlatform": "Accenture Platform / AMCAT",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Cognitive & Technical Assessment",
+        "type": "Aptitude + Technical",
+        "duration": "90 minutes",
+        "description": "First elimination round. Tests cognitive ability and basic technical knowledge.",
+        "sections": [
+          {
+            "name": "Cognitive Section (Verbal + Reasoning + Numerical)",
+            "questions": 50,
+            "time": "50 min"
+          },
+          {
+            "name": "Technical Section (Pseudocode, App/MS Office, Networking/Security/Cloud basics)",
+            "questions": 40,
+            "time": "40 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Coding Assessment",
+        "type": "Coding",
+        "duration": "45 minutes",
+        "description": "Candidates solve programming problems using C, C++, Java, Python, or .NET.",
+        "topics": [
+          "Arrays",
+          "Strings",
+          "Loops",
+          "Sorting",
+          "Basic DSA",
+          "Pattern problems"
+        ],
+        "languages": [
+          "C",
+          "C++",
+          "Java",
+          "Python",
+          ".NET"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Communication Assessment",
+        "type": "Communication",
+        "duration": "25-30 minutes",
+        "description": "Evaluates English language proficiency including sentence mastery, vocabulary, fluency, and pronunciation.",
+        "topics": [
+          "Sentence formation",
+          "Vocabulary",
+          "Speaking fluency",
+          "Pronunciation"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "Technical & HR Interview",
+        "type": "Interview",
+        "duration": "30-60 minutes",
+        "description": "Combined interview round evaluating technical skills, behavioral traits, and overall role fit.",
+        "topics": [
+          "OOPs",
+          "DSA",
+          "DBMS",
+          "Projects",
+          "Why Accenture?",
+          "Career Goals",
+          "HR Behavioral"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Cognitive Aptitude",
+      "Pseudocode",
+      "Networking Basics",
+      "Cloud & Security Fundamentals",
+      "Coding (Easy-Medium)",
+      "Communication Skills",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Pseudocode and technical MCQs are key differentiators in Round 1",
+      "Networking, Cloud, and Security basics are important for technical section",
+      "For coding, focus on standard algorithmic patterns",
+      "Communication assessment — practice speaking in English confidently",
+      "Research Accenture's services and recent projects for interview"
+    ],
+    "commonMistakes": [
+      "Ignoring Pseudocode section",
+      "Poor communication skills",
+      "Not practicing networking fundamentals",
+      "Not knowing MS Office basics"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "20-40 min",
+      "topics": [
+        "OOPs",
+        "DBMS",
+        "OS",
+        "DSA",
+        "Projects",
+        "Pseudocode",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Be confident in explaining your project",
+        "Revise OOPs concepts with examples",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "Self Introduction",
+        "Why Accenture?",
+        "Strengths",
+        "Goals",
+        "Teamwork"
+      ],
+      "tips": [
+        "Research Accenture's culture",
+        "Mention specific Accenture initiatives you admire"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Accenture Official Careers",
+      "url": "https://careers.accenture.com",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Accenture Pattern",
+      "url": "https://prepinsta.com/accenture",
+      "type": "educational"
+    },
+    {
+      "name": "GeeksforGeeks - Accenture",
+      "url": "https://geeksforgeeks.org/accenture-interview-questions",
+      "type": "educational"
+    }
+  ]
+}

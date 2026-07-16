@@ -1,0 +1,282 @@
+{
+  "id": "tcs",
+  "name": "Tata Consultancy Services",
+  "shortName": "TCS",
+  "logo": "🔵",
+  "color": "#003087",
+  "gradient": "linear-gradient(135deg, #003087, #0065BD)",
+  "industry": "IT Services & Consulting",
+  "founded": "1968",
+  "headquarters": "Mumbai, Maharashtra, India",
+  "ceo": "K Krithivasan",
+  "employees": "600,000+",
+  "globalPresence": "46+ countries",
+  "website": "https://www.tcs.com",
+  "careersPage": "https://www.tcs.com/careers",
+  "description": "Tata Consultancy Services (TCS) is a global leader in IT services, consulting, and business solutions. A part of the Tata Group, TCS has been partnering with the world's largest businesses for over 55 years to address their most complex challenges.",
+  "businessDomains": [
+    "Banking, Financial Services & Insurance",
+    "Manufacturing",
+    "Life Sciences & Healthcare",
+    "Retail & Consumer",
+    "Communication, Media & Technology",
+    "Energy, Resources & Utilities"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "Angular",
+    "React",
+    "Cloud Computing",
+    "AI/ML",
+    "Blockchain",
+    "IoT",
+    "SAP",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Building on Belief",
+    "highlights": [
+      "Largest IT company in India by market cap",
+      "3rd largest IT services company globally",
+      "Fortune 500 company",
+      "600,000+ employees worldwide",
+      "Listed on BSE & NSE"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc",
+      "M.S"
+    ],
+    "branches": [
+      "All Engineering branches",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "Maximum 1 active backlog (must be cleared before joining)",
+    "gap": "Maximum 24 months total academic gap",
+    "ageLimit": "18-28 years",
+    "batch": "2024, 2025, 2026",
+    "note": "Score validity: NQT score valid for 2 years. No rounding of percentage allowed."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "TCS Official Careers Website & TCS iON NQT Portal",
+    "sourceType": "official",
+    "sourceUrl": "https://www.tcs.com/careers/india/tcs-national-qualifier-test",
+    "roles": [
+      {
+        "title": "TCS Ninja",
+        "package": "3.36 LPA",
+        "description": "Entry-level role based on Foundation section score of NQT"
+      },
+      {
+        "title": "TCS Digital",
+        "package": "7 LPA",
+        "description": "Advanced role for candidates who clear Advanced section of NQT"
+      },
+      {
+        "title": "TCS Prime",
+        "package": "9-14 LPA",
+        "description": "Top-tier role for exceptional coders, selected via HackQuest/Hackathon"
+      }
+    ],
+    "hiringProgram": "TCS National Qualifier Test (NQT)",
+    "assessmentPlatform": "TCS iON (In-center assessment)",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "TCS NQT - Foundation Section",
+        "type": "Online Assessment",
+        "duration": "90 minutes",
+        "description": "Mandatory for ALL roles. Tests Numerical Ability, Verbal Ability, and Reasoning Ability.",
+        "sections": [
+          {
+            "name": "Numerical Ability",
+            "questions": 26,
+            "time": "40 min"
+          },
+          {
+            "name": "Verbal Ability",
+            "questions": 24,
+            "time": "30 min"
+          },
+          {
+            "name": "Reasoning Ability",
+            "questions": 30,
+            "time": "50 min"
+          }
+        ],
+        "negativeMark": "No negative marking"
+      },
+      {
+        "roundNumber": 2,
+        "name": "TCS NQT - Advanced Section",
+        "type": "Online Assessment",
+        "duration": "60 minutes",
+        "description": "Required for Digital and Prime roles. Tests Advanced Quantitative Reasoning and Coding.",
+        "sections": [
+          {
+            "name": "Advanced Quantitative Aptitude",
+            "questions": 10,
+            "time": "20 min"
+          },
+          {
+            "name": "Advanced Reasoning Ability",
+            "questions": 10,
+            "time": "20 min"
+          },
+          {
+            "name": "Coding",
+            "questions": 1,
+            "time": "20 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Technical questions on programming, data structures, algorithms, DBMS, and projects.",
+        "topics": [
+          "Programming Fundamentals",
+          "Data Structures",
+          "Algorithms",
+          "DBMS",
+          "OOPs",
+          "Projects"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "Managerial Interview",
+        "type": "Interview",
+        "duration": "20-30 minutes",
+        "description": "Assessment of leadership, problem-solving, and scenario-based questions.",
+        "topics": [
+          "Scenario-based questions",
+          "Leadership",
+          "Teamwork",
+          "Problem-solving"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-20 minutes",
+        "description": "Cultural fit, motivation, and relocation willingness.",
+        "topics": [
+          "Self Introduction",
+          "Why TCS?",
+          "Career Goals",
+          "Relocation",
+          "Strengths & Weaknesses"
+        ]
+      },
+      {
+        "roundNumber": 6,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Numerical Ability",
+      "Verbal Ability",
+      "Logical Reasoning",
+      "Coding (C/Java/Python)",
+      "Data Structures & Algorithms",
+      "DBMS Concepts",
+      "OOPs Concepts",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Register on TCS NextStep portal and TCS iON for NQT",
+      "Practice NQT mock tests on the official TCS iON portal",
+      "Foundation section is key for Ninja — don't ignore verbal ability",
+      "For Digital, practice coding problems on LeetCode (Easy-Medium)",
+      "Brush up on SQL queries, Normalization, and DBMS concepts",
+      "NQT score is valid for 2 years — can be reattempted"
+    ],
+    "commonMistakes": [
+      "Not registering on NextStep portal early",
+      "Ignoring verbal ability section",
+      "Not attempting the Advanced section if aiming for Digital role",
+      "Poor time management in NQT"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "Java/C/Python",
+        "OOPs",
+        "DBMS",
+        "OS",
+        "DSA",
+        "Projects",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Practice STAR method",
+        "Know your college projects well",
+        "Prepare at least 3-4 coding problems",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "Self Introduction",
+        "Why TCS?",
+        "Strengths",
+        "Weaknesses",
+        "Career Goals",
+        "Bond (1 year for Ninja)"
+      ],
+      "tips": [
+        "Research TCS culture and values",
+        "Show enthusiasm for learning",
+        "Be ready to discuss relocation"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "TCS Official Careers",
+      "url": "https://www.tcs.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "TCS NQT Official Page",
+      "url": "https://www.tcsion.com/hub/nqt",
+      "type": "official"
+    },
+    {
+      "name": "GeeksforGeeks - TCS NQT",
+      "url": "https://geeksforgeeks.org/tcs-nqt",
+      "type": "educational"
+    }
+  ]
+}

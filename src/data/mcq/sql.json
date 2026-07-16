@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "question": "Which SQL clause is used to filter results AFTER a GROUP BY aggregation?",
+    "options": ["WHERE", "HAVING", "FILTER", "ORDER BY"],
+    "correctAnswer": "HAVING",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "HAVING filters groups after GROUP BY, while WHERE filters individual rows before grouping. Example: SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5; — returns departments with more than 5 employees. WHERE cannot use aggregate functions, HAVING can."
+  },
+  {
+    "id": 2,
+    "question": "What does the SQL query 'SELECT DISTINCT city FROM customers' return?",
+    "options": [
+      "All cities with their count",
+      "Only unique city values (no duplicates)",
+      "Cities in alphabetical order",
+      "The first city for each customer"
+    ],
+    "correctAnswer": "Only unique city values (no duplicates)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "DISTINCT removes duplicate values from the result set. If 100 customers are from 'Mumbai', only one 'Mumbai' row appears in the result. Useful for finding all unique values in a column. Note: DISTINCT applies to all selected columns — it deduplicates based on combination of all selected columns."
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "options": [
+      "They are identical",
+      "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from left table + matching rows from right",
+      "LEFT JOIN is faster than INNER JOIN",
+      "INNER JOIN works with 3 tables, LEFT JOIN only with 2"
+    ],
+    "correctAnswer": "INNER JOIN returns only matching rows from both tables; LEFT JOIN returns all rows from left table + matching rows from right",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "INNER JOIN: Returns rows where there's a match in BOTH tables. Non-matching rows are excluded. LEFT JOIN: Returns ALL rows from left table; for right table, non-matching values are NULL. Use LEFT JOIN when you want all left table records regardless of matches (e.g., all customers even those with no orders)."
+  },
+  {
+    "id": 4,
+    "question": "Write the SQL query to find the second highest salary from an 'employees' table.",
+    "options": [
+      "SELECT MAX(salary) FROM employees WHERE salary < MAX(salary)",
+      "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees)",
+      "SELECT salary FROM employees ORDER BY salary DESC LIMIT 2",
+      "SELECT SECOND(salary) FROM employees"
+    ],
+    "correctAnswer": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "The inner subquery finds the maximum salary. The outer query finds the maximum salary LESS THAN the overall maximum, giving the second highest. Alternative: SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1; (MySQL syntax). This is one of the most commonly asked SQL interview questions."
+  },
+  {
+    "id": 5,
+    "question": "What does the SQL aggregate function COUNT(*) count?",
+    "options": [
+      "Only non-NULL values in a column",
+      "All rows in a group, including rows with NULL values",
+      "Only distinct values",
+      "Only numeric columns"
+    ],
+    "correctAnswer": "All rows in a group, including rows with NULL values",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "COUNT(*) counts ALL rows including those with NULL values in any column. COUNT(column_name) counts only rows where that specific column is NOT NULL. Example: If a table has 10 rows but 3 have NULL in 'email', COUNT(*) = 10 but COUNT(email) = 7."
+  },
+  {
+    "id": 6,
+    "question": "What is a SQL INDEX used for?",
+    "options": [
+      "To enforce data integrity constraints",
+      "To speed up data retrieval by creating a data structure for faster lookups",
+      "To encrypt sensitive data",
+      "To create backup copies of tables"
+    ],
+    "correctAnswer": "To speed up data retrieval by creating a data structure for faster lookups",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "An INDEX creates a separate data structure (usually B-tree) that speeds up data retrieval on a column at the cost of additional storage and slower write operations. Automatically created for PRIMARY KEY and UNIQUE constraints. Use on frequently searched/filtered columns. Too many indexes slow down INSERT/UPDATE/DELETE."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of GROUP BY in SQL?",
+    "options": [
+      "To sort results in ascending order",
+      "To group rows with the same values into summary rows, typically used with aggregate functions",
+      "To join multiple tables",
+      "To filter rows based on conditions"
+    ],
+    "correctAnswer": "To group rows with the same values into summary rows, typically used with aggregate functions",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "GROUP BY groups rows with the same values in specified columns. Used with aggregate functions (COUNT, SUM, AVG, MAX, MIN) to compute summaries per group. Example: SELECT department, AVG(salary) FROM employees GROUP BY department — shows average salary per department."
+  },
+  {
+    "id": 8,
+    "question": "What does the following query return? SELECT * FROM orders WHERE order_date BETWEEN '2024-01-01' AND '2024-12-31';",
+    "options": [
+      "Orders from 2024 excluding the boundary dates",
+      "Orders from 2024 including both January 1 and December 31",
+      "Only orders from January 1, 2024",
+      "Orders sorted by date"
+    ],
+    "correctAnswer": "Orders from 2024 including both January 1 and December 31",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "SQL MCQs",
+    "topic": "SQL",
+    "explanation": "SQL BETWEEN operator is inclusive of both boundary values. So BETWEEN '2024-01-01' AND '2024-12-31' includes rows where order_date = '2024-01-01' AND rows where order_date = '2024-12-31'. Equivalent to: WHERE order_date >= '2024-01-01' AND order_date <= '2024-12-31'."
+  }
+]

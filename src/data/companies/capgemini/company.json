@@ -1,0 +1,274 @@
+{
+  "id": "capgemini",
+  "name": "Capgemini",
+  "shortName": "Capgemini",
+  "logo": "🔵",
+  "color": "#0070AD",
+  "gradient": "linear-gradient(135deg, #0070AD, #00AEEF)",
+  "industry": "IT Services, Consulting & Digital Transformation",
+  "founded": "1967",
+  "headquarters": "Paris, France (India: Mumbai)",
+  "ceo": "Aiman Ezzat",
+  "employees": "350,000+",
+  "globalPresence": "50+ countries",
+  "website": "https://www.capgemini.com",
+  "careersPage": "https://www.capgemini.com/careers",
+  "description": "Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided every day by its purpose of unleashing human energy through technology for an inclusive and sustainable future.",
+  "businessDomains": [
+    "Cloud & Digital",
+    "Data & Artificial Intelligence",
+    "Intelligent Industry",
+    "Applications & Technology",
+    "Business Services"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "Angular",
+    "React",
+    "SAP",
+    "Salesforce",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Get The Future You Want",
+    "highlights": [
+      "One of world's largest IT companies",
+      "Fortune 500 company",
+      "Exceller program for freshers",
+      "Strong SAP & Cloud practice",
+      "Listed on Paris Euronext"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc (CS/IT)"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and most engineering branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs during hiring process",
+    "gap": "Maximum 2 years education gap; no gap allowed during the degree",
+    "batch": "2024, 2025",
+    "note": "Check specific drive notification for exact eligibility. Game-based aptitude is unique to Capgemini."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on candidate experiences and PrepInsta/FacePrep reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Analyst",
+        "package": "3.8 - 4.5 LPA",
+        "description": "Standard entry-level role"
+      },
+      {
+        "title": "Senior Analyst",
+        "package": "6.5 - 7 LPA",
+        "description": "Higher package role requiring coding assessment"
+      }
+    ],
+    "hiringProgram": "Exceller Program",
+    "assessmentPlatform": "Capgemini Platform / Mercer Mettl",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment Round 1",
+        "type": "Aptitude + Technical + Behavioral",
+        "duration": "95-120 minutes",
+        "description": "Multi-section assessment covering technical MCQs, pseudocode, game-based aptitude, English, and behavioral profiling.",
+        "sections": [
+          {
+            "name": "Technical MCQs (DSA, Cloud, Networking, DB)",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Pseudocode",
+            "questions": 10,
+            "time": "20 min"
+          },
+          {
+            "name": "English Communication",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Game-Based Aptitude (Cognitive Games)",
+            "questions": "N/A",
+            "time": "25 min"
+          },
+          {
+            "name": "Behavioral Competency Profiling",
+            "questions": 15,
+            "time": "10 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Coding Assessment",
+        "type": "Coding",
+        "duration": "60 minutes",
+        "description": "Mandatory for Senior Analyst track. 2 coding problems in C, C++, Java, or Python.",
+        "topics": [
+          "Data Structures",
+          "Arrays",
+          "Sorting",
+          "Strings",
+          "Basic Algorithms"
+        ],
+        "languages": [
+          "C",
+          "C++",
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Spoken English Assessment",
+        "type": "Communication",
+        "duration": "20 minutes",
+        "description": "AI-driven virtual test evaluating fluency, pronunciation, and listening skills.",
+        "topics": [
+          "Spoken English",
+          "Fluency",
+          "Pronunciation",
+          "Listening"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "In-depth discussion on projects, core CS subjects, and problem-solving.",
+        "topics": [
+          "Resume review",
+          "Projects",
+          "DSA",
+          "SQL",
+          "OOPs",
+          "OS basics"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-20 minutes",
+        "description": "Cultural fit and behavioral assessment.",
+        "topics": [
+          "Self Introduction",
+          "Why Capgemini?",
+          "Teamwork",
+          "Strengths",
+          "Relocation"
+        ]
+      },
+      {
+        "roundNumber": 6,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Pseudocode",
+      "Technical MCQs (Cloud, Networking)",
+      "Game-Based Cognitive Aptitude",
+      "Spoken English",
+      "Coding (Easy-Medium)",
+      "OOPs & Core CS",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Game-based aptitude is unique — practice online cognitive games beforehand",
+      "Pseudocode is an elimination section — practice extensively",
+      "Cloud and Networking MCQs are common — do a basic AWS/networking course",
+      "Written and spoken English are both evaluated — work on communication",
+      "For Senior Analyst role, solve 80+ LeetCode problems"
+    ],
+    "commonMistakes": [
+      "Not preparing for game-based aptitude",
+      "Ignoring pseudocode",
+      "Poor English communication",
+      "Not knowing Cloud/Networking basics"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "Projects",
+        "DSA",
+        "SQL",
+        "OOPs",
+        "Problem-solving",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Be ready to write SQL queries",
+        "Know your project stack well",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why Capgemini?",
+        "Future goals",
+        "Cultural fit"
+      ],
+      "tips": [
+        "Research Capgemini's values",
+        "Show genuine interest in tech consulting"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Capgemini Official Careers",
+      "url": "https://www.capgemini.com/careers",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Capgemini Pattern",
+      "url": "https://prepinsta.com/capgemini",
+      "type": "educational"
+    },
+    {
+      "name": "FacePrep - Capgemini",
+      "url": "https://faceprep.in/capgemini",
+      "type": "educational"
+    }
+  ]
+}

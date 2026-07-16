@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "question": "What is the output of the following Python code?\n```python\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n```",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "[4, 3, 2, 1]"],
+    "correctAnswer": "[1, 2, 3, 4]",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "In Python, lists are mutable and assignment (y = x) creates a reference to the same object, not a copy. So when y.append(4) is called, it modifies the same list that x refers to. To create a copy, use y = x.copy() or y = x[:]."
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between a list and a tuple in Python?",
+    "options": [
+      "Lists can only store numbers, tuples store strings",
+      "Lists are mutable (can be changed), tuples are immutable (cannot be changed)",
+      "Tuples are faster to iterate, lists are not",
+      "There is no difference"
+    ],
+    "correctAnswer": "Lists are mutable (can be changed), tuples are immutable (cannot be changed)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "Lists [] are mutable — you can add, remove, or modify elements. Tuples () are immutable — once created, they cannot be changed. Use tuples for data that should not change (like coordinates, RGB values) and lists for dynamic collections. Tuples are slightly faster and can be used as dictionary keys."
+  },
+  {
+    "id": 3,
+    "question": "What is a Python decorator?",
+    "options": [
+      "A design pattern for creating objects",
+      "A function that takes another function and extends its behavior without modifying it",
+      "A way to format string output",
+      "A class attribute decorator"
+    ],
+    "correctAnswer": "A function that takes another function and extends its behavior without modifying it",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "A decorator in Python wraps a function to add extra functionality (like logging, timing, authentication) without changing the original function. Syntax: @decorator_name before a function definition. Common built-in decorators: @staticmethod, @classmethod, @property. Example: @login_required in Django to protect views."
+  },
+  {
+    "id": 4,
+    "question": "What does the 'self' parameter represent in a Python class method?",
+    "options": [
+      "A reference to the class itself",
+      "A reference to the current instance of the class",
+      "A global variable",
+      "The return value of the method"
+    ],
+    "correctAnswer": "A reference to the current instance of the class",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "In Python, 'self' is the first parameter of instance methods and represents the current object instance. It allows access to instance attributes and other methods. Unlike Java's 'this', Python requires explicit 'self'. When you call object.method(), Python automatically passes the object as the first argument."
+  },
+  {
+    "id": 5,
+    "question": "What is the output of: print(type([]) == type({}))?",
+    "options": ["True", "False", "Error", "None"],
+    "correctAnswer": "False",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "type([]) returns <class 'list'> and type({}) returns <class 'dict'>. These are different types, so the comparison returns False. In Python, {} creates an empty dict, not an empty set. To create an empty set, use set()."
+  },
+  {
+    "id": 6,
+    "question": "What is a Python generator?",
+    "options": [
+      "A function that uses 'yield' to produce a sequence of values lazily (one at a time)",
+      "A tool to generate random numbers",
+      "A class that creates multiple objects",
+      "A method to generate documentation"
+    ],
+    "correctAnswer": "A function that uses 'yield' to produce a sequence of values lazily (one at a time)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "Generators produce values one at a time using 'yield' keyword, pausing execution between calls. They're memory-efficient for large datasets since they don't store all values at once. Example: def count_up(n): for i in range(n): yield i. Generators are iterable but can only be iterated once."
+  },
+  {
+    "id": 7,
+    "question": "What is the output of: list(map(lambda x: x**2, [1, 2, 3, 4]))?",
+    "options": ["[1, 4, 9, 16]", "[2, 4, 6, 8]", "[1, 2, 3, 4]", "Error"],
+    "correctAnswer": "[1, 4, 9, 16]",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "map() applies a function to each element of an iterable. lambda x: x**2 squares each element. So map(lambda x: x**2, [1,2,3,4]) produces 1², 2², 3², 4² = [1, 4, 9, 16]. list() converts the map object to a list. Equivalent list comprehension: [x**2 for x in [1,2,3,4]]."
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of __init__ method in Python classes?",
+    "options": [
+      "To initialize/set up a new instance of the class when it's created",
+      "To destroy an object when it's no longer needed",
+      "To define class-level variables",
+      "To import external modules"
+    ],
+    "correctAnswer": "To initialize/set up a new instance of the class when it's created",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Python MCQs",
+    "topic": "Python",
+    "explanation": "__init__ is the constructor method in Python. It's automatically called when a new object is created. Use it to set instance variables (attributes). Example: class Dog: def __init__(self, name): self.name = name. Then d = Dog('Rex') sets d.name = 'Rex'. Python's __init__ is analogous to Java's constructor."
+  }
+]

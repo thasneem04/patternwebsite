@@ -1,0 +1,245 @@
+{
+  "id": "techmahindra",
+  "name": "Tech Mahindra",
+  "shortName": "Tech Mahindra",
+  "logo": "🔴",
+  "color": "#DD052B",
+  "gradient": "linear-gradient(135deg, #DD052B, #FF4D6D)",
+  "industry": "IT Services & Consulting",
+  "founded": "1986",
+  "headquarters": "Pune, Maharashtra, India",
+  "ceo": "Mohit Joshi",
+  "employees": "150,000+",
+  "globalPresence": "90+ countries",
+  "website": "https://www.techmahindra.com",
+  "careersPage": "https://careers.techmahindra.com",
+  "description": "Tech Mahindra is an Indian multinational IT services and consulting company. Part of the Mahindra Group, it focuses on digital transformation, Industry 4.0, and telecom-specific IT services. Known for its strong telecom practice and 5G capabilities.",
+  "businessDomains": [
+    "Communications",
+    "Manufacturing",
+    "Technology",
+    "BFSI",
+    "Healthcare",
+    "Media & Entertainment"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "React",
+    "Angular",
+    "5G & Telecom",
+    "AI/ML",
+    "IoT",
+    "Cloud",
+    "Blockchain",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Rise. Run. Lead.",
+    "highlights": [
+      "Strong in Telecom & 5G",
+      "Mahindra Group company",
+      "Listed on BSE & NSE",
+      "Supercoder program for top coders",
+      "TechMahindra SMART Hiring"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "EIE",
+      "and related engineering branches"
+    ],
+    "cgpa": "6.0 - 6.5 CGPA / 60-65%",
+    "backlogs": "No active backlogs at time of selection",
+    "gap": "Maximum 1 year academic gap",
+    "batch": "2024, 2025",
+    "note": "Some drives strictly enforce 65% threshold without rounding. Candidates who participated in Tech Mahindra drive in last 6 months are ineligible."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on recent candidate experiences and PrepInsta reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "package": "3.25 LPA",
+        "description": "Standard entry-level role after aptitude and essay rounds"
+      },
+      {
+        "title": "Supercoder",
+        "package": "5.5 LPA",
+        "description": "Higher package role for top performers in coding assessment"
+      }
+    ],
+    "hiringProgram": "SMART Hiring / TechMahindra Campus Drive",
+    "assessmentPlatform": "Superset / Tech Mahindra Platform",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment Phase 1",
+        "type": "Aptitude + Communication + Technical",
+        "duration": "90-120 minutes",
+        "description": "Multi-section test covering aptitude, essay writing, technical MCQs, and communication.",
+        "sections": [
+          {
+            "name": "Aptitude (Quant + Logical + Verbal)",
+            "questions": 40,
+            "time": "40 min"
+          },
+          {
+            "name": "Essay / Story Writing",
+            "questions": 1,
+            "time": "20 min"
+          },
+          {
+            "name": "Technical & Psychometric Test",
+            "questions": 30,
+            "time": "30 min"
+          },
+          {
+            "name": "Conversational/Communication Test",
+            "questions": "N/A",
+            "time": "20 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Supercoder Challenge",
+        "type": "Coding",
+        "duration": "60 minutes",
+        "description": "Advanced coding round for top performers. Determines higher package eligibility.",
+        "topics": [
+          "Data Structures",
+          "Algorithms",
+          "Dynamic Programming basics",
+          "Strings",
+          "Arrays"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Technical depth assessment on core subjects, programming, and project work.",
+        "topics": [
+          "Java/Python/C++",
+          "OOPs",
+          "DBMS",
+          "OS basics",
+          "DSA",
+          "Final Year Project"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "HR Interview",
+        "type": "Interview",
+        "duration": "15-20 minutes",
+        "description": "Personality, cultural fit, and motivation assessment.",
+        "topics": [
+          "Self Introduction",
+          "Why Tech Mahindra?",
+          "Career Goals",
+          "Strengths",
+          "Relocation"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "4-6 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Aptitude",
+      "Essay Writing",
+      "Communication Skills",
+      "Core Programming",
+      "OOPs",
+      "Coding (for Supercoder)",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Essay writing is often overlooked — practice writing clearly and grammatically",
+      "Communication assessment scores matter — speak in complete sentences",
+      "For Supercoder, practice Medium LeetCode problems",
+      "Technical interview is project-focused"
+    ],
+    "commonMistakes": [
+      "Not practicing essay writing",
+      "Ignoring communication round",
+      "Not aiming for Supercoder track"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "OOPs",
+        "DSA",
+        "DBMS",
+        "OS",
+        "Project deep-dive",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Know your project technologies well",
+        "Revise common sorting and searching algorithms",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why TechM?",
+        "Goal in 5 years",
+        "Strengths"
+      ],
+      "tips": [
+        "Show interest in telecom and 5G domain",
+        "Be ready to work in shifts if needed"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Tech Mahindra Official Careers",
+      "url": "https://careers.techmahindra.com",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Tech Mahindra",
+      "url": "https://prepinsta.com/tech-mahindra",
+      "type": "educational"
+    }
+  ]
+}

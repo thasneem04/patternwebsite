@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "question": "What is the time complexity of finding the longest palindromic substring using Dynamic Programming?",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(n³)"],
+    "correctAnswer": "O(n²)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Coding Questions",
+    "topic": "Dynamic Programming",
+    "difficulty_label": "Medium",
+    "problem": {
+      "title": "Longest Palindromic Substring",
+      "description": "Given a string s, return the longest palindromic substring in s.",
+      "examples": [
+        { "input": "s = \"babad\"", "output": "\"bab\"", "note": "\"aba\" is also a valid answer." },
+        { "input": "s = \"cbbd\"", "output": "\"bb\"" }
+      ],
+      "constraints": ["1 <= s.length <= 1000", "s consists only of digits and English letters"],
+      "hints": ["Use expand around center approach for O(n²) time and O(1) space", "Or use DP table dp[i][j] = true if s[i..j] is palindrome"]
+    },
+    "explanation": "The DP approach uses a 2D table where dp[i][j] = true if s[i..j] is a palindrome. Time: O(n²), Space: O(n²). The expand-around-center approach achieves the same time complexity with O(1) space."
+  },
+  {
+    "id": 2,
+    "question": "For the Two Sum problem, which approach gives O(n) time complexity?",
+    "options": [
+      "Brute force with nested loops",
+      "Sorting + Two Pointers",
+      "Hash Map approach",
+      "Binary Search"
+    ],
+    "correctAnswer": "Hash Map approach",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Coding Questions",
+    "topic": "Arrays & Hashing",
+    "problem": {
+      "title": "Two Sum",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+      "examples": [
+        { "input": "nums = [2,7,11,15], target = 9", "output": "[0,1]", "note": "nums[0] + nums[1] == 9" },
+        { "input": "nums = [3,2,4], target = 6", "output": "[1,2]" }
+      ],
+      "constraints": ["2 <= nums.length <= 10⁴", "-10⁹ <= nums[i] <= 10⁹", "Only one valid answer exists"],
+      "solution": "Use a hash map to store {value: index}. For each element, check if (target - element) exists in the map. Time: O(n), Space: O(n)."
+    },
+    "explanation": "Hash Map approach: For each element nums[i], check if (target - nums[i]) exists in the hash map. If yes, return [stored_index, i]. If no, store {nums[i]: i}. Single pass = O(n) time. This is the most commonly asked coding question in IT company interviews."
+  },
+  {
+    "id": 3,
+    "question": "What algorithm is most efficient for detecting a cycle in a linked list?",
+    "options": [
+      "DFS traversal",
+      "Floyd's Cycle Detection Algorithm (Slow & Fast pointers)",
+      "Using a visited array",
+      "Binary Search on the list"
+    ],
+    "correctAnswer": "Floyd's Cycle Detection Algorithm (Slow & Fast pointers)",
+    "difficulty": "Medium",
+    "company": "General",
+    "category": "Coding Questions",
+    "topic": "Linked Lists",
+    "problem": {
+      "title": "Linked List Cycle Detection",
+      "description": "Given the head of a linked list, determine if the linked list has a cycle. A cycle exists if some node can be reached again by following the next pointers.",
+      "examples": [
+        { "input": "head = [3,2,0,-4], pos = 1", "output": "true" },
+        { "input": "head = [1,2], pos = 0", "output": "true" },
+        { "input": "head = [1], pos = -1", "output": "false" }
+      ],
+      "constraints": ["The number of nodes in the list is in the range [0, 10⁴]"],
+      "solution": "Use two pointers: slow (moves 1 step) and fast (moves 2 steps). If they meet, there's a cycle. Time: O(n), Space: O(1)."
+    },
+    "explanation": "Floyd's Cycle Detection (Tortoise and Hare): slow pointer moves 1 step, fast pointer moves 2 steps. If a cycle exists, they will eventually meet. Time: O(n), Space: O(1) — much better than using a HashSet which needs O(n) space."
+  },
+  {
+    "id": 4,
+    "question": "What is the time complexity of a Fibonacci implementation using memoization (Top-Down DP)?",
+    "options": ["O(2^n)", "O(n)", "O(n log n)", "O(1)"],
+    "correctAnswer": "O(n)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Coding Questions",
+    "topic": "Dynamic Programming",
+    "problem": {
+      "title": "Fibonacci Number",
+      "description": "The Fibonacci numbers are defined as: F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2). Given n, calculate F(n).",
+      "examples": [
+        { "input": "n = 4", "output": "3", "note": "F(4) = F(3) + F(2) = 2 + 1 = 3" },
+        { "input": "n = 10", "output": "55" }
+      ],
+      "constraints": ["0 <= n <= 30"],
+      "solution": "def fib(n, memo={}):\n  if n <= 1: return n\n  if n in memo: return memo[n]\n  memo[n] = fib(n-1, memo) + fib(n-2, memo)\n  return memo[n]"
+    },
+    "explanation": "Naive recursion is O(2^n) as it recomputes subproblems. Memoization stores computed results, so each subproblem is solved only once — making it O(n) time and O(n) space. Bottom-up DP also achieves O(n) time with O(n) or O(1) space."
+  },
+  {
+    "id": 5,
+    "question": "Which traversal visits nodes in the order: Left → Root → Right?",
+    "options": ["Pre-order (Root → Left → Right)", "In-order (Left → Root → Right)", "Post-order (Left → Right → Root)", "Level-order (BFS)"],
+    "correctAnswer": "In-order (Left → Root → Right)",
+    "difficulty": "Easy",
+    "company": "General",
+    "category": "Coding Questions",
+    "topic": "Trees",
+    "problem": {
+      "title": "Binary Tree In-order Traversal",
+      "description": "Given the root of a binary tree, return the inorder traversal of its nodes' values.",
+      "examples": [
+        { "input": "root = [1,null,2,3]", "output": "[1,3,2]" },
+        { "input": "root = []", "output": "[]" },
+        { "input": "root = [1]", "output": "[1]" }
+      ],
+      "solution": "def inorder(root):\n  result = []\n  def traverse(node):\n    if node:\n      traverse(node.left)\n      result.append(node.val)\n      traverse(node.right)\n  traverse(root)\n  return result"
+    },
+    "explanation": "In-order traversal (Left → Root → Right) of a Binary Search Tree produces values in sorted ascending order — a key property! Pre-order (Root → Left → Right) is useful for copying a tree. Post-order (Left → Right → Root) is useful for deleting a tree."
+  }
+]

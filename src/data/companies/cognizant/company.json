@@ -1,0 +1,272 @@
+{
+  "id": "cognizant",
+  "name": "Cognizant Technology Solutions",
+  "shortName": "Cognizant",
+  "logo": "🔷",
+  "color": "#1A4FA3",
+  "gradient": "linear-gradient(135deg, #1A4FA3, #0080FF)",
+  "industry": "IT Services & Consulting",
+  "founded": "1994",
+  "headquarters": "Teaneck, New Jersey, USA (India HQ: Chennai)",
+  "ceo": "Ravi Kumar S",
+  "employees": "350,000+",
+  "globalPresence": "40+ countries",
+  "website": "https://www.cognizant.com",
+  "careersPage": "https://careers.cognizant.com",
+  "description": "Cognizant is a leading provider of information technology, consulting, and business process services. Cognizant helps clients transform and thrive in a changing world by combining deep industry knowledge and expertise in areas like digital, cloud, data, and AI with a full range of business and technology services.",
+  "businessDomains": [
+    "Financial Services",
+    "Healthcare",
+    "Life Sciences",
+    "Products & Resources",
+    "Communications, Media & Technology"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    "React",
+    "Angular",
+    ".NET",
+    "AI/ML",
+    "Cloud",
+    "Salesforce",
+    "SAP",
+    "Oracle",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Accelerating clients' transition to a new world of work",
+    "highlights": [
+      "Fortune 500 company",
+      "One of the largest IT companies globally",
+      "GenC hiring program for fresh graduates",
+      "Listed on NASDAQ",
+      "Strong presence in Banking & Healthcare IT"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA",
+      "M.Sc (IT/CS)"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and most engineering branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "No active backlogs (no rounding of percentage e.g. 59.9% not allowed)",
+    "gap": "Maximum 2 years overall academic gap",
+    "batch": "2024, 2025",
+    "note": "Certain specialized branches (Leather, Fashion, Food Technology) may be excluded. Indian nationals, OCIs, and PIOs eligible."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on PrepInsta, GeeksforGeeks and candidate experience reports",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "GenC (Programmer Analyst Trainee)",
+        "package": "4 - 4.5 LPA",
+        "description": "Standard entry-level role for fresh graduates"
+      },
+      {
+        "title": "GenC Elevate",
+        "package": "5.5 - 6 LPA",
+        "description": "Higher package role for candidates with better coding score"
+      },
+      {
+        "title": "GenC Pro",
+        "package": "8+ LPA",
+        "description": "Premium role for exceptional coders and top performers"
+      }
+    ],
+    "hiringProgram": "GenC (Generation Cognizant)",
+    "assessmentPlatform": "Superset / AMCAT",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Communication Assessment",
+        "type": "Communication",
+        "duration": "60 minutes",
+        "description": "AI-based online test evaluating grammar, vocabulary, listening, reading, and speaking skills. This is an ELIMINATION round.",
+        "topics": [
+          "Spoken English",
+          "Grammar",
+          "Vocabulary",
+          "Listening",
+          "Reading Comprehension"
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Aptitude Assessment",
+        "type": "Aptitude",
+        "duration": "80 minutes",
+        "description": "Quantitative aptitude and game-based cognitive aptitude test.",
+        "sections": [
+          {
+            "name": "Quantitative Aptitude",
+            "questions": 20,
+            "time": "40 min"
+          },
+          {
+            "name": "Game-Based Aptitude/Reasoning",
+            "questions": "N/A",
+            "time": "40 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Assessment",
+        "type": "Technical + Coding",
+        "duration": "120 minutes",
+        "description": "Comprehensive technical test with coding, SQL, Cloud, and Web scenarios.",
+        "sections": [
+          {
+            "name": "Coding",
+            "questions": 2,
+            "time": "60 min",
+            "languages": [
+              "C",
+              "C++",
+              "Java",
+              "Python"
+            ]
+          },
+          {
+            "name": "SQL Queries",
+            "questions": 2,
+            "time": "20 min"
+          },
+          {
+            "name": "Cloud Fundamentals MCQs",
+            "questions": 10,
+            "time": "20 min"
+          },
+          {
+            "name": "Web Scenario",
+            "questions": 5,
+            "time": "20 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "Technical & HR Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Combined Technical and HR interview. May be conducted in-person or virtually.",
+        "topics": [
+          "OOPs",
+          "DSA",
+          "Projects",
+          "DBMS",
+          "Self Introduction",
+          "Why Cognizant?",
+          "Career Goals"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking in any assessment round",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate to High",
+    "keyTopics": [
+      "Spoken English Communication",
+      "Quantitative Aptitude",
+      "Game-Based Reasoning",
+      "Coding (Arrays, Strings, Sorting, DP basics)",
+      "SQL Queries",
+      "Cloud Computing Fundamentals",
+      "OOPs & Core CS subjects",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Communication round is first — practice speaking English fluently",
+      "Game-based aptitude is different from traditional reasoning — try mock games online",
+      "SQL is tested practically — practice writing actual SQL queries",
+      "Cloud Fundamentals (AWS/Azure basics) are important — do a basic course",
+      "For GenC Pro, solve 100+ LeetCode problems",
+      "Prepare 2-3 strong projects with full technical knowledge"
+    ],
+    "commonMistakes": [
+      "Underestimating communication assessment (it's an elimination round)",
+      "Not practicing SQL queries practically",
+      "Ignoring Cloud fundamentals",
+      "Not preparing for game-based aptitude"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "20-30 min",
+      "topics": [
+        "OOPs concepts",
+        "Java/Python/C++",
+        "DBMS",
+        "DSA basics",
+        "Final Year Project",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Explain OOPs with real-world examples",
+        "Be ready to write code on paper/whiteboard",
+        "Know your project architecture",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why Cognizant?",
+        "Career goals",
+        "Teamwork experience",
+        "Strengths & Weaknesses"
+      ],
+      "tips": [
+        "Research Cognizant's GenC program",
+        "Show enthusiasm for digital transformation",
+        "Be ready to relocate"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Cognizant Official Careers",
+      "url": "https://careers.cognizant.com",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Cognizant GenC",
+      "url": "https://prepinsta.com/cognizant",
+      "type": "educational"
+    },
+    {
+      "name": "GeeksforGeeks - Cognizant Interview",
+      "url": "https://geeksforgeeks.org/cognizant-interview-questions",
+      "type": "educational"
+    }
+  ]
+}

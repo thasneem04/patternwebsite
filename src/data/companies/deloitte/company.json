@@ -1,0 +1,243 @@
+{
+  "id": "deloitte",
+  "name": "Deloitte",
+  "shortName": "Deloitte",
+  "logo": "🟢",
+  "color": "#86BC25",
+  "gradient": "linear-gradient(135deg, #86BC25, #4CAF50)",
+  "industry": "Professional Services & Consulting",
+  "founded": "1845",
+  "headquarters": "London, UK (India: Mumbai)",
+  "ceo": "Joe Ucuzoglu (Global)",
+  "employees": "415,000+ (Global), 100,000+ (India)",
+  "globalPresence": "150+ countries",
+  "website": "https://www.deloitte.com",
+  "careersPage": "https://www2.deloitte.com/in/en/careers.html",
+  "description": "Deloitte is one of the Big Four accounting organizations and a global professional services network. Deloitte provides audit & assurance, consulting, financial advisory, risk advisory, tax, and related services to select clients.",
+  "businessDomains": [
+    "Audit & Assurance",
+    "Consulting",
+    "Financial Advisory",
+    "Risk Advisory",
+    "Tax & Legal"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    "SAP",
+    "Salesforce",
+    "Power BI",
+    "Data Analytics",
+    "Cloud (AWS/Azure)",
+    "AI/ML",
+    "RPA",
+    "Tableau",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Making an impact that matters",
+    "highlights": [
+      "Part of Big Four professional services",
+      "Strong in consulting and advisory",
+      "Deloitte USI (US India) major employer for freshers",
+      "Listed presence globally",
+      "Strong campus presence across India"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "M.E.",
+      "M.Tech",
+      "MCA"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "and circuit branches"
+    ],
+    "cgpa": "6.0 - 6.5 CGPA / 60%",
+    "backlogs": "No active backlogs at time of selection",
+    "gap": "Maximum 1 year education gap",
+    "batch": "2024, 2025",
+    "note": "Service lines vary — verify specific requirements for Technology Consulting vs Audit. ATS-friendly resume recommended (minimal formatting)."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on Deloitte Official Careers, PrepInsta, and candidate experience reports",
+    "sourceType": "mixed",
+    "sourceUrl": "https://www2.deloitte.com/in/en/careers.html",
+    "roles": [
+      {
+        "title": "Analyst (Technology)",
+        "package": "5.5 - 7 LPA",
+        "description": "Entry-level technology consulting and implementation role"
+      }
+    ],
+    "hiringProgram": "Campus Drive / Deloitte Careers Portal",
+    "assessmentPlatform": "Deloitte Platform / AMCAT / SHL",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment",
+        "type": "Aptitude + Technical + Coding",
+        "duration": "90 minutes",
+        "description": "Proctored online exam covering aptitude, verbal ability, reasoning, and technical/coding questions.",
+        "sections": [
+          {
+            "name": "Quantitative Aptitude",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Logical Reasoning",
+            "questions": 20,
+            "time": "25 min"
+          },
+          {
+            "name": "Verbal Ability",
+            "questions": 20,
+            "time": "20 min"
+          },
+          {
+            "name": "Technical / Coding",
+            "questions": "2-3 coding problems",
+            "time": "20 min"
+          }
+        ]
+      },
+      {
+        "roundNumber": 2,
+        "name": "Group Discussion",
+        "type": "Communication",
+        "duration": "15-20 minutes",
+        "description": "Case study or current topic discussion to assess communication, analysis, and teamwork.",
+        "topics": [
+          "Technology topics",
+          "Case studies",
+          "Current affairs",
+          "Business scenarios"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Technical Interview",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Domain knowledge assessment based on resume, projects, and programming concepts.",
+        "topics": [
+          "Core programming",
+          "Data Structures",
+          "Algorithms",
+          "DBMS",
+          "Projects",
+          "OS basics"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "HR/Partner Interview",
+        "type": "Interview",
+        "duration": "20-30 minutes",
+        "description": "Cultural fit, behavioral assessment, and alignment with Deloitte values.",
+        "topics": [
+          "Self Introduction",
+          "Why Deloitte?",
+          "STAR-based behavioral questions",
+          "Career motivations",
+          "Values alignment"
+        ]
+      },
+      {
+        "roundNumber": 5,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "negativeMark": "No negative marking",
+    "preparationTime": "6-8 weeks",
+    "difficultyLevel": "Moderate to High",
+    "keyTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "Verbal Ability",
+      "Coding (Easy-Medium)",
+      "Case Study Discussion",
+      "STAR Behavioral Questions",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Practice STAR (Situation-Task-Action-Result) method for HR round",
+      "Case study GD requires logical and structured thinking",
+      "Deloitte values teamwork and client-centricity — mention relevant experiences",
+      "Resume must be ATS-friendly (no tables, minimal formatting)"
+    ],
+    "commonMistakes": [
+      "Poor GD communication",
+      "Not using STAR method for behavioral questions",
+      "Fancy resume formatting that fails ATS parsing"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "30-45 min",
+      "topics": [
+        "Programming fundamentals",
+        "DSA",
+        "DBMS",
+        "OS",
+        "Projects",
+        "Data Analytics basics",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Mention any data visualization or analytics work",
+        "Deloitte values problem-solving — explain thought process",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "20-30 min",
+      "topics": [
+        "STAR behavioral questions",
+        "Why Deloitte?",
+        "Ethical scenarios",
+        "Career goals"
+      ],
+      "tips": [
+        "Research Deloitte's 5 service lines",
+        "Prepare 3-4 STAR stories from your experience"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Deloitte Official Careers India",
+      "url": "https://www2.deloitte.com/in/en/careers.html",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Deloitte Pattern",
+      "url": "https://prepinsta.com/deloitte",
+      "type": "educational"
+    },
+    {
+      "name": "GeeksforGeeks - Deloitte Interview",
+      "url": "https://geeksforgeeks.org/deloitte-interview-questions",
+      "type": "educational"
+    }
+  ]
+}

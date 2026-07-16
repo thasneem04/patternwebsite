@@ -1,0 +1,226 @@
+{
+  "id": "wipro",
+  "name": "Wipro Limited",
+  "shortName": "Wipro",
+  "logo": "🟣",
+  "color": "#341F6B",
+  "gradient": "linear-gradient(135deg, #341F6B, #7B2FBE)",
+  "industry": "IT Services & Consulting",
+  "founded": "1945",
+  "headquarters": "Bengaluru, Karnataka, India",
+  "ceo": "Srinivas Pallia",
+  "employees": "230,000+",
+  "globalPresence": "65+ countries",
+  "website": "https://www.wipro.com",
+  "careersPage": "https://careers.wipro.com",
+  "description": "Wipro Limited is a leading technology services and consulting company. It is a global information technology, consulting and business process services company with a workforce of over 230,000 serving clients in 65 countries.",
+  "businessDomains": [
+    "Banking, Financial Services & Insurance",
+    "Healthcare & Life Sciences",
+    "Manufacturing",
+    "Energy & Utilities",
+    "Technology",
+    "Communications & Media"
+  ],
+  "techStack": [
+    "Java",
+    "Python",
+    ".NET",
+    "Angular",
+    "React",
+    "Cloud (AWS/Azure/GCP)",
+    "AI/ML",
+    "SAP",
+    "Oracle",
+    "Cybersecurity",
+    "Prompt Engineering",
+    "GenAI"
+  ],
+  "overview": {
+    "tagline": "Innovating for Your Tomorrow",
+    "highlights": [
+      "3rd largest IT company in India",
+      "Fortune 500 company",
+      "Marquee employer for engineering graduates",
+      "Elite NLTH drives for talent acquisition",
+      "Listed on NYSE, BSE & NSE"
+    ]
+  },
+  "eligibility": {
+    "degrees": [
+      "B.E.",
+      "B.Tech",
+      "5-year Integrated M.Tech"
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "ME",
+      "Mech",
+      "Civil",
+      "Other engineering branches"
+    ],
+    "cgpa": "6.0 CGPA / 60%",
+    "backlogs": "1 backlog allowed during assessment; must be cleared before offer",
+    "gap": "Maximum 3 years total education gap",
+    "batch": "2024, 2025",
+    "note": "Candidates who have participated in any Wipro selection process within the last 3-6 months are ineligible."
+  },
+  "recruitmentPattern": {
+    "lastUpdated": "July 2025",
+    "source": "Based on recent candidate experiences and Wipro official communications",
+    "sourceType": "candidate-experience",
+    "roles": [
+      {
+        "title": "Project Engineer",
+        "package": "3.5 LPA",
+        "description": "Standard entry-level engineering role"
+      },
+      {
+        "title": "Elite Project Engineer",
+        "package": "6.5 LPA",
+        "description": "Higher package role for top performers in Elite NLTH"
+      }
+    ],
+    "hiringProgram": "Elite National Level Talent Hunt (NLTH)",
+    "assessmentPlatform": "Superset / Wipro Platform",
+    "rounds": [
+      {
+        "roundNumber": 1,
+        "name": "Online Assessment",
+        "type": "Aptitude + Communication + Coding",
+        "duration": "128 minutes",
+        "description": "Comprehensive assessment covering aptitude, written communication, and programming.",
+        "sections": [
+          {
+            "name": "Aptitude Test (Quant + Logical + Verbal)",
+            "questions": 50,
+            "time": "68 min"
+          },
+          {
+            "name": "Written Communication (Essay)",
+            "questions": 1,
+            "time": "20 min"
+          },
+          {
+            "name": "Online Programming (Coding)",
+            "questions": 2,
+            "time": "40 min"
+          }
+        ],
+        "negativeMark": "No negative marking"
+      },
+      {
+        "roundNumber": 2,
+        "name": "Voice / Communication Assessment",
+        "type": "Communication",
+        "duration": "15-20 minutes",
+        "description": "AI-based verbal communication round evaluating fluency, pronunciation, and grammar. Elimination round.",
+        "topics": [
+          "Spoken English",
+          "Fluency",
+          "Pronunciation",
+          "Grammar"
+        ]
+      },
+      {
+        "roundNumber": 3,
+        "name": "Business Discussion (Interview)",
+        "type": "Interview",
+        "duration": "30-45 minutes",
+        "description": "Combined technical and HR discussion evaluating confidence, problem-solving, and cultural fit.",
+        "topics": [
+          "Technical concepts",
+          "Projects",
+          "HR Questions",
+          "Problem-solving",
+          "Cultural fit"
+        ]
+      },
+      {
+        "roundNumber": 4,
+        "name": "GenAI & Prompt Engineering Assessment",
+        "type": "Technical",
+        "duration": "45 mins",
+        "description": "Evaluation of GenAI fundamentals, prompt optimization, RAG pipelines, and enterprise security (prompt injection).",
+        "topics": [
+          "Prompt Chaining",
+          "RAG vs Fine-tuning",
+          "Token Optimization",
+          "LLM Guardrails"
+        ]
+      }
+    ],
+    "preparationTime": "4-6 weeks",
+    "difficultyLevel": "Moderate",
+    "keyTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "Verbal Ability",
+      "Essay Writing",
+      "Coding (Arrays, Strings, DSA basics)",
+      "Spoken English Communication",
+      "Prompt Engineering (Zero-shot, Few-shot)",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "tips": [
+      "Practice essay writing — it's an elimination section often overlooked",
+      "Communication round is very important — speak clearly and confidently",
+      "For coding, practice Easy to Medium LeetCode problems",
+      "Quantitative aptitude sections are time-bound — practice speed",
+      "Keep project explanations crisp and technical"
+    ],
+    "commonMistakes": [
+      "Not practicing essay/written communication",
+      "Weak spoken English skills",
+      "Poor time management in aptitude section",
+      "Not knowing coding basics like arrays and strings"
+    ]
+  },
+  "interview": {
+    "technical": {
+      "duration": "20-30 min",
+      "topics": [
+        "Java/Python/C basics",
+        "OOPs",
+        "DBMS basics",
+        "Projects",
+        "Prompt Engineering & LLMs"
+      ],
+      "tips": [
+        "Know your project very well",
+        "Basic OOPs is a must",
+        "Practice common interview questions",
+        "Be prepared to design a RAG pipeline or explain how to prevent prompt injection vulnerabilities."
+      ]
+    },
+    "hr": {
+      "duration": "15-20 min",
+      "topics": [
+        "About yourself",
+        "Why Wipro?",
+        "Career goals",
+        "Strengths & Weaknesses"
+      ],
+      "tips": [
+        "Be positive and enthusiastic",
+        "Research Wipro's recent work",
+        "Express readiness to relocate"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "Wipro Official Careers",
+      "url": "https://careers.wipro.com",
+      "type": "official"
+    },
+    {
+      "name": "PrepInsta - Wipro NLTH Pattern",
+      "url": "https://prepinsta.com/wipro",
+      "type": "educational"
+    }
+  ]
+}
