@@ -38,6 +38,9 @@ const MCQSession = () => {
               case 'prompt-engineering':
                 data = (await import('../data/mcq/prompt-engineering.json')).default;
                 break;
+              case 'java':
+                data = (await import('../data/mcq/java.json')).default;
+                break;
               case 'python':
                 data = (await import('../data/mcq/python.json')).default;
                 break;

@@ -1,4 +1,190 @@
-[
+const fs = require('fs');
+const path = require('path');
+
+const javaData = [
+  {
+    "id": "java_1",
+    "question": "Which of the following is not a Java features?",
+    "options": ["Dynamic", "Architecture Neutral", "Use of pointers", "Object-oriented"],
+    "correctAnswer": "Use of pointers",
+    "explanation": "Java doesn't support pointers to avoid security issues and complexity.",
+    "difficulty": "Easy",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_2",
+    "question": "What is the return type of the hashCode() method in the Object class?",
+    "options": ["int", "Object", "long", "void"],
+    "correctAnswer": "int",
+    "explanation": "The hashCode() method returns an integer value representing the memory address or a unique hash of the object.",
+    "difficulty": "Easy",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_3",
+    "question": "Which of these collections allow null as a key?",
+    "options": ["TreeMap", "HashMap", "Hashtable", "ConcurrentHashMap"],
+    "correctAnswer": "HashMap",
+    "explanation": "HashMap allows one null key and multiple null values, whereas TreeMap, Hashtable, and ConcurrentHashMap do not allow null keys.",
+    "difficulty": "Medium",
+    "topic": "Collections"
+  },
+  {
+    "id": "java_4",
+    "question": "What happens if we call start() method twice on the same Thread instance?",
+    "options": ["Thread starts executing again", "Throws IllegalThreadStateException", "Nothing happens", "Throws InterruptedException"],
+    "correctAnswer": "Throws IllegalThreadStateException",
+    "explanation": "A thread can only be started once. Calling start() again on an already started thread throws java.lang.IllegalThreadStateException.",
+    "difficulty": "Medium",
+    "topic": "Multithreading"
+  },
+  {
+    "id": "java_5",
+    "question": "Which keyword is used to prevent a class from being subclassed?",
+    "options": ["static", "const", "final", "abstract"],
+    "correctAnswer": "final",
+    "explanation": "The final keyword applied to a class prevents it from being extended (subclassed).",
+    "difficulty": "Easy",
+    "topic": "OOPs"
+  },
+  {
+    "id": "java_6",
+    "question": "Which method is used to perform intermediate operations on a Stream in Java 8?",
+    "options": ["collect()", "forEach()", "map()", "reduce()"],
+    "correctAnswer": "map()",
+    "explanation": "map() is an intermediate operation. collect(), forEach(), and reduce() are terminal operations.",
+    "difficulty": "Medium",
+    "topic": "Streams"
+  },
+  {
+    "id": "java_7",
+    "question": "In Java, what is the default value of a local variable?",
+    "options": ["null", "0", "Garbage value", "No default value (compilation error if used uninitialized)"],
+    "correctAnswer": "No default value (compilation error if used uninitialized)",
+    "explanation": "Local variables in Java must be initialized before use, they do not get default values.",
+    "difficulty": "Medium",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_8",
+    "question": "Which of these exception classes is unchecked?",
+    "options": ["IOException", "SQLException", "NullPointerException", "ClassNotFoundException"],
+    "correctAnswer": "NullPointerException",
+    "explanation": "NullPointerException extends RuntimeException, making it an unchecked exception.",
+    "difficulty": "Medium",
+    "topic": "Exceptions"
+  },
+  {
+    "id": "java_9",
+    "question": "What is the purpose of the 'transient' keyword in Java?",
+    "options": ["To make a variable accessible only within the same package", "To prevent a variable from being serialized", "To indicate a method is synchronized", "To make a variable thread-safe"],
+    "correctAnswer": "To prevent a variable from being serialized",
+    "explanation": "The transient keyword indicates that a variable should not be included when the object is serialized.",
+    "difficulty": "Hard",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_10",
+    "question": "Which design pattern is implemented by java.lang.Runtime?",
+    "options": ["Factory", "Singleton", "Observer", "Decorator"],
+    "correctAnswer": "Singleton",
+    "explanation": "The Runtime class uses the Singleton design pattern. There is only one instance of Runtime in a Java application.",
+    "difficulty": "Hard",
+    "topic": "Design Patterns"
+  },
+  {
+    "id": "java_11",
+    "question": "Which block is always executed whether an exception is handled or not?",
+    "options": ["try", "catch", "finally", "throw"],
+    "correctAnswer": "finally",
+    "explanation": "The finally block always executes regardless of whether an exception occurred or was handled.",
+    "difficulty": "Easy",
+    "topic": "Exceptions"
+  },
+  {
+    "id": "java_12",
+    "question": "What is the size of boolean variable in Java?",
+    "options": ["1 bit", "8 bits", "16 bits", "Depends on JVM"],
+    "correctAnswer": "Depends on JVM",
+    "explanation": "The size of boolean is not precisely defined by the Java specification and is JVM dependent.",
+    "difficulty": "Medium",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_13",
+    "question": "Which collection provides ordered iteration based on insertion order?",
+    "options": ["HashSet", "TreeSet", "LinkedHashSet", "PriorityQueue"],
+    "correctAnswer": "LinkedHashSet",
+    "explanation": "LinkedHashSet maintains a doubly-linked list running through all of its entries to define the iteration ordering.",
+    "difficulty": "Medium",
+    "topic": "Collections"
+  },
+  {
+    "id": "java_14",
+    "question": "Can we override a static method in Java?",
+    "options": ["Yes", "No", "Only if it is public", "Only in abstract classes"],
+    "correctAnswer": "No",
+    "explanation": "Static methods cannot be overridden because they are resolved at compile time (method hiding), not at runtime.",
+    "difficulty": "Medium",
+    "topic": "OOPs"
+  },
+  {
+    "id": "java_15",
+    "question": "What is the superclass of all classes in Java?",
+    "options": ["Class", "Main", "Object", "System"],
+    "correctAnswer": "Object",
+    "explanation": "java.lang.Object is the root of the class hierarchy in Java.",
+    "difficulty": "Easy",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_16",
+    "question": "Which of the following is true about String in Java?",
+    "options": ["Strings are mutable", "Strings are immutable", "Strings can only be created using the 'new' keyword", "Strings extend StringBuilder"],
+    "correctAnswer": "Strings are immutable",
+    "explanation": "String objects in Java are immutable; their values cannot be changed after creation.",
+    "difficulty": "Easy",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_17",
+    "question": "Which of these is not an interface in the Collections Framework?",
+    "options": ["List", "Set", "Map", "Dictionary"],
+    "correctAnswer": "Dictionary",
+    "explanation": "Dictionary is an abstract class, not an interface. It is largely deprecated in favor of the Map interface.",
+    "difficulty": "Medium",
+    "topic": "Collections"
+  },
+  {
+    "id": "java_18",
+    "question": "What is autoboxing in Java?",
+    "options": ["Converting primitive type to object wrapper class automatically", "Converting object wrapper class to primitive type automatically", "Automatically casting a subclass to a superclass", "None of the above"],
+    "correctAnswer": "Converting primitive type to object wrapper class automatically",
+    "explanation": "Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes.",
+    "difficulty": "Medium",
+    "topic": "Core Java"
+  },
+  {
+    "id": "java_19",
+    "question": "Which interface should be implemented to create a thread in Java?",
+    "options": ["Thread", "Runnable", "Callable", "Both Runnable and Callable"],
+    "correctAnswer": "Both Runnable and Callable",
+    "explanation": "Both Runnable (no return value) and Callable (returns a value) interfaces can be implemented to define thread tasks.",
+    "difficulty": "Medium",
+    "topic": "Multithreading"
+  },
+  {
+    "id": "java_20",
+    "question": "What does the 'volatile' keyword guarantee?",
+    "options": ["Atomicity", "Visibility", "Mutual Exclusion", "All of the above"],
+    "correctAnswer": "Visibility",
+    "explanation": "The volatile keyword guarantees visibility of changes to variables across threads, but does not guarantee atomicity.",
+    "difficulty": "Hard",
+    "topic": "Multithreading"
+  }
+];
+
+const codingData = [
   {
     "id": "coding_1",
     "difficulty": "Easy",
@@ -7,15 +193,8 @@
       "title": "Two Sum",
       "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.",
       "examples": [
-        {
-          "input": "nums = [2,7,11,15], target = 9",
-          "output": "[0,1]",
-          "note": "Because nums[0] + nums[1] == 9, we return [0, 1]."
-        },
-        {
-          "input": "nums = [3,2,4], target = 6",
-          "output": "[1,2]"
-        }
+        { "input": "nums = [2,7,11,15], target = 9", "output": "[0,1]", "note": "Because nums[0] + nums[1] == 9, we return [0, 1]." },
+        { "input": "nums = [3,2,4], target = 6", "output": "[1,2]" }
       ],
       "constraints": [
         "2 <= nums.length <= 10^4",
@@ -34,14 +213,8 @@
       "title": "Contains Duplicate",
       "description": "Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.",
       "examples": [
-        {
-          "input": "nums = [1,2,3,1]",
-          "output": "true"
-        },
-        {
-          "input": "nums = [1,2,3,4]",
-          "output": "false"
-        }
+        { "input": "nums = [1,2,3,1]", "output": "true" },
+        { "input": "nums = [1,2,3,4]", "output": "false" }
       ],
       "constraints": [
         "1 <= nums.length <= 10^5",
@@ -59,15 +232,8 @@
       "title": "Valid Palindrome",
       "description": "A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.\n\nGiven a string `s`, return `true` if it is a palindrome, or `false` otherwise.",
       "examples": [
-        {
-          "input": "s = \"A man, a plan, a canal: Panama\"",
-          "output": "true",
-          "note": "\"amanaplanacanalpanama\" is a palindrome."
-        },
-        {
-          "input": "s = \"race a car\"",
-          "output": "false"
-        }
+        { "input": "s = \"A man, a plan, a canal: Panama\"", "output": "true", "note": "\"amanaplanacanalpanama\" is a palindrome." },
+        { "input": "s = \"race a car\"", "output": "false" }
       ],
       "constraints": [
         "1 <= s.length <= 2 * 10^5",
@@ -85,11 +251,7 @@
       "title": "Best Time to Buy and Sell Stock",
       "description": "You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.\n\nYou want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.\n\nReturn the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.",
       "examples": [
-        {
-          "input": "prices = [7,1,5,3,6,4]",
-          "output": "5",
-          "note": "Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5."
-        }
+        { "input": "prices = [7,1,5,3,6,4]", "output": "5", "note": "Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5." }
       ],
       "constraints": [
         "1 <= prices.length <= 10^5",
@@ -107,14 +269,8 @@
       "title": "Valid Parentheses",
       "description": "Given a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n\nAn input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order.",
       "examples": [
-        {
-          "input": "s = \"()[]{}\"",
-          "output": "true"
-        },
-        {
-          "input": "s = \"([)]\"",
-          "output": "false"
-        }
+        { "input": "s = \"()[]{}\"", "output": "true" },
+        { "input": "s = \"([)]\"", "output": "false" }
       ],
       "constraints": [
         "1 <= s.length <= 10^4",
@@ -132,10 +288,7 @@
       "title": "Reverse Linked List",
       "description": "Given the `head` of a singly linked list, reverse the list, and return the reversed list.",
       "examples": [
-        {
-          "input": "head = [1,2,3,4,5]",
-          "output": "[5,4,3,2,1]"
-        }
+        { "input": "head = [1,2,3,4,5]", "output": "[5,4,3,2,1]" }
       ],
       "constraints": [
         "The number of nodes in the list is the range [0, 5000].",
@@ -153,10 +306,7 @@
       "title": "Invert Binary Tree",
       "description": "Given the `root` of a binary tree, invert the tree, and return its root.",
       "examples": [
-        {
-          "input": "root = [4,2,7,1,3,6,9]",
-          "output": "[4,7,2,9,6,3,1]"
-        }
+        { "input": "root = [4,2,7,1,3,6,9]", "output": "[4,7,2,9,6,3,1]" }
       ],
       "constraints": [
         "The number of nodes in the tree is in the range [0, 100].",
@@ -174,16 +324,8 @@
       "title": "Climbing Stairs",
       "description": "You are climbing a staircase. It takes `n` steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
       "examples": [
-        {
-          "input": "n = 2",
-          "output": "2",
-          "note": "1 step + 1 step, or 2 steps"
-        },
-        {
-          "input": "n = 3",
-          "output": "3",
-          "note": "1+1+1, 1+2, 2+1"
-        }
+        { "input": "n = 2", "output": "2", "note": "1 step + 1 step, or 2 steps" },
+        { "input": "n = 3", "output": "3", "note": "1+1+1, 1+2, 2+1" }
       ],
       "constraints": [
         "1 <= n <= 45"
@@ -200,15 +342,8 @@
       "title": "Longest Palindromic Substring",
       "description": "Given a string `s`, return the longest palindromic substring in `s`.",
       "examples": [
-        {
-          "input": "s = \"babad\"",
-          "output": "\"bab\"",
-          "note": "\"aba\" is also a valid answer."
-        },
-        {
-          "input": "s = \"cbbd\"",
-          "output": "\"bb\""
-        }
+        { "input": "s = \"babad\"", "output": "\"bab\"", "note": "\"aba\" is also a valid answer." },
+        { "input": "s = \"cbbd\"", "output": "\"bb\"" }
       ],
       "constraints": [
         "1 <= s.length <= 1000",
@@ -226,10 +361,7 @@
       "title": "Group Anagrams",
       "description": "Given an array of strings `strs`, group the anagrams together. You can return the answer in any order.",
       "examples": [
-        {
-          "input": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
-          "output": "[[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]"
-        }
+        { "input": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]", "output": "[[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]" }
       ],
       "constraints": [
         "1 <= strs.length <= 10^4",
@@ -247,11 +379,7 @@
       "title": "Longest Substring Without Repeating Characters",
       "description": "Given a string `s`, find the length of the longest substring without repeating characters.",
       "examples": [
-        {
-          "input": "s = \"abcabcbb\"",
-          "output": "3",
-          "note": "The answer is \"abc\", with the length of 3."
-        }
+        { "input": "s = \"abcabcbb\"", "output": "3", "note": "The answer is \"abc\", with the length of 3." }
       ],
       "constraints": [
         "0 <= s.length <= 5 * 10^4"
@@ -268,10 +396,7 @@
       "title": "Linked List Cycle",
       "description": "Given `head`, the head of a linked list, determine if the linked list has a cycle in it.",
       "examples": [
-        {
-          "input": "head = [3,2,0,-4], pos = 1",
-          "output": "true"
-        }
+        { "input": "head = [3,2,0,-4], pos = 1", "output": "true" }
       ],
       "constraints": [
         "The number of the nodes in the list is in the range [0, 10^4]."
@@ -288,10 +413,7 @@
       "title": "Merge Intervals",
       "description": "Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.",
       "examples": [
-        {
-          "input": "intervals = [[1,3],[2,6],[8,10],[15,18]]",
-          "output": "[[1,6],[8,10],[15,18]]"
-        }
+        { "input": "intervals = [[1,3],[2,6],[8,10],[15,18]]", "output": "[[1,6],[8,10],[15,18]]" }
       ],
       "constraints": [
         "1 <= intervals.length <= 10^4",
@@ -309,10 +431,7 @@
       "title": "Validate Binary Search Tree",
       "description": "Given the `root` of a binary tree, determine if it is a valid binary search tree (BST).",
       "examples": [
-        {
-          "input": "root = [2,1,3]",
-          "output": "true"
-        }
+        { "input": "root = [2,1,3]", "output": "true" }
       ],
       "constraints": [
         "The number of nodes in the tree is in the range [1, 10^4]."
@@ -329,10 +448,7 @@
       "title": "Number of Islands",
       "description": "Given an `m x n` 2D binary grid `grid` which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.",
       "examples": [
-        {
-          "input": "grid = [[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"1\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"1\",\"1\"]]",
-          "output": "3"
-        }
+        { "input": "grid = [[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"1\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"1\",\"1\"]]", "output": "3" }
       ],
       "constraints": [
         "m == grid.length",
@@ -342,4 +458,9 @@
     },
     "explanation": "Iterate through every cell in the grid. If a cell is '1' (land), it's a new island. Increment the counter and run DFS to turn all connected lands ('1's) to water ('0's) to avoid double counting. Time: O(m*n), Space: O(m*n) for recursive stack."
   }
-]
+];
+
+fs.writeFileSync(path.join(__dirname, 'src/data/mcq/java.json'), JSON.stringify(javaData, null, 2), 'utf8');
+fs.writeFileSync(path.join(__dirname, 'src/data/mcq/coding.json'), JSON.stringify(codingData, null, 2), 'utf8');
+
+console.log('Successfully generated java.json and coding.json');

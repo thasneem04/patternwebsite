@@ -4,6 +4,7 @@ import { FiDatabase, FiCode, FiCpu, FiTerminal, FiGlobe, FiLock } from 'react-ic
 
 const categories = [
   { id: 'technical', name: 'Core Technical (CS)', icon: <FiCpu />, count: 150, color: 'var(--primary)', desc: 'DSA, DBMS, OS, Computer Networks, OOPs' },
+  { id: 'java', name: 'Java Programming', icon: <FiCode />, count: 100, color: '#EAB308', desc: 'Core Java, Collections, Streams, Exceptions' },
   { id: 'python', name: 'Python Programming', icon: <FiCode />, count: 120, color: 'var(--secondary)', desc: 'Syntax, Data Structures, OOPs, Libraries' },
   { id: 'sql', name: 'Database & SQL', icon: <FiDatabase />, count: 85, color: '#8B5CF6', desc: 'Queries, Joins, Normalization, Transactions' },
   { id: 'prompt-engineering', name: 'Prompt Engineering', icon: <FiTerminal />, count: 45, color: 'var(--accent)', desc: 'AI Prompts, LLMs, Best Practices, Hexaware Specific' },
